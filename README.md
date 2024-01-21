@@ -1,2 +1,2 @@
 # Flashcord-Store-API
-Python Script communicating with the SGN SQL Server to deliver Flashcord Store related requests
+Python Script communicating with the SGN SQL (or not) Server to deliver Flashcord Store related requests
