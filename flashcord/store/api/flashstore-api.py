@@ -9,7 +9,12 @@ Code_NOTFOUND = "404".encode()
 Code_SENDING = "DATA".encode()
 Code_SENT = "SENT".encode()
 
+PacketSize = 1024
+ProcessingDelay = 0.1
+ConnectionDelay = 1
 api = socket.socket()
+api.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
 
 def GetServerData(GetWhat):
     if GetWhat == "Modules":
@@ -35,33 +40,42 @@ print(f'[Flashstore API] Loaded "{UserData}" as User Data')
 
 def FlashstoreAPI():
     def SendData(RequestedData):
+        time.sleep(ProcessingDelay)
         isDataSent = False
         while isDataSent == False:
             conn.send(Code_SENDING)
+            time.sleep(ProcessingDelay)
             print(f'[Flashstore API] Sending {RequestedData} to {addr}.')
             conn.send(str(RequestedData).encode())
-            time.sleep(0.1)
+            time.sleep(ProcessingDelay)
             conn.send(Code_SENT)
-            data = conn.recv(1024).decode()
+            time.sleep(ProcessingDelay)
+            data = conn.recv(PacketSize).decode()
+            time.sleep(ProcessingDelay)
             if data == "OK":
                 isDataSent = True
             else:
                 api.close()
         conn.send(Code_CLOSE)
-    
+        api.shutdown(1)
+        conn.close()
+        
     print("[Flashstore API] Listening for API requests.")
     api.listen()
     conn, addr = api.accept()
+    time.sleep(ConnectionDelay)
     while Exit != True:
         print(f"[Flashstore API] Connection received by {addr}")
         while True:
-            data = conn.recv(1024).decode()
+            data = conn.recv(PacketSize).decode()
+            time.sleep(ProcessingDelay)
             if not data:
                 break
             print(f'[Flashstore API] {addr} sent "{data}".')
             if data == "HELLO":
                 conn.send(Code_OK)
-                data = conn.recv(1024).decode()
+                data = conn.recv(PacketSize).decode()
+                time.sleep(ProcessingDelay)
                 if not data:
                     break
                 print(f'[Flashstore API] {addr} sent "{data}".')
@@ -72,22 +86,28 @@ def FlashstoreAPI():
                             try: 
                                 if API_Request[2].lower() in ModuleData:
                                     SendData(ModuleData[ModuleData.index(API_Request[2].lower()) + 1])
+                                    time.sleep(ProcessingDelay)
                             except IndexError:
                                 SendData(ModuleData)
                         elif API_Request[1] == "PLUGINS":
                             try: 
                                 if API_Request[2].lower() in PluginData:
                                     SendData(PluginData[PluginData.index(API_Request[2].lower()) + 1])
+                                    time.sleep(ProcessingDelay)
                             except IndexError:
                                 SendData(PluginData)
+                        elif API_Request[1] == "USERS":
+                            SendData(UserData)
+                            time.sleep(ProcessingDelay)
                         else:
                             conn.send(Code_NOTFOUND)
                             conn.send(Code_CLOSE)
             conn.send(Code_CLOSE)
+        api.shutdown(1)
         conn.close()
 
 def bindServer():
-    ServerAddress = "127.0.0.1"
+    ServerAddress = socket.gethostname()
     ServerPort = 1407
     api.bind((ServerAddress, ServerPort))
 

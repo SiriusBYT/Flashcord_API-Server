@@ -1,13 +1,16 @@
 import socket
+import time
 
 Exit = False
 Code_HELLO = "HELLO"
 Code_OK = "OK"
 Code_CLOSE = "CLOSE"
 
-ClientAddress = "127.0.0.1"  
+ClientAddress = "158.178.199.197"  
 ClientPort = 1407 
 ErrorLevel = 0
+
+PacketSize = 1024
 
 def FlashstoreAPI_Request(API_Request):
     try:
@@ -18,7 +21,7 @@ def FlashstoreAPI_Request(API_Request):
             isConnectionOpened = True
             isReceivingData = False
             while isConnectionOpened == True:
-                data = api.recv(1024).decode()
+                data = api.recv(PacketSize).decode()
                 if isReceivingData == False:
                     if data == "OK":
                         print(f'[Flashstore Client] Server sent back "{data}".')
@@ -26,7 +29,6 @@ def FlashstoreAPI_Request(API_Request):
                     elif data == "CLOSE":
                         print(f'[Flashstore Client] Server sent back "{data}", terminating the connection!')
                         isConnectionOpened = False
-                        api.close()
                         return API_Data
                     elif data == "DATA":
                         print('[Flashstore Client] Attempting to now receive data from the server.')
@@ -34,7 +36,6 @@ def FlashstoreAPI_Request(API_Request):
                     else:
                         print('[Flashstore Client] ERROR: "', data, '"is not a known response!')
                         isConnectionOpened = False
-                        api.close()
                         return API_Data
                 else:
                     if data == "SENT":
@@ -44,6 +45,7 @@ def FlashstoreAPI_Request(API_Request):
                     else:
                         print(f'[Flashstore Client] Received Request with data as: "{data}".')
                         API_Data = data
+            api.close()
 
     except Exception as ErrorInfo: 
         print("[Flashstore Client] Error Level increased by 1 because of", ErrorInfo, ".")
@@ -55,7 +57,12 @@ def FlashstoreAPI_Request(API_Request):
 
 #                                                                    Get     What       By User    Module/plugin Name
 print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET MODULES SIRIUSBYT"))
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET PLUGINS SIRIUSBYT"))
+time.sleep(2)
+print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET PLUGINS THARKI-GOD"))
+time.sleep(2)
 print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET MODULES"))
+time.sleep(2)
 print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET PLUGINS"))
+time.sleep(2)
 print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET USERS"))
+time.sleep(2)
