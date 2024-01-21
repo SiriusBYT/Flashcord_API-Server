@@ -1,68 +1,28 @@
 import socket
-import time
+import time 
 
-Exit = False
-Code_HELLO = "HELLO"
-Code_OK = "OK"
-Code_CLOSE = "CLOSE"
+def FlashClient_API_Request():
 
-ClientAddress = "158.178.199.197"  
-ClientPort = 1407 
-ErrorLevel = 0
-
-PacketSize = 1024
-
-def FlashstoreAPI_Request(API_Request):
+    print(f'[Flashstore API // Client] INFO: Attempting to communicate with the FlashStore API...')
+    # Server Information
+    ServerAddress = socket.gethostname()
+    ServerPort = 1407
+    PacketSize = 1024
+    RemoteServer = socket.socket()
+    DebugMode = False
+    API_Version = "2"
     try:
-        API_Data = []
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as api:
-            api.connect((ClientAddress, ClientPort))
-            api.send(Code_HELLO.encode())
-            isConnectionOpened = True
-            isReceivingData = False
-            while isConnectionOpened == True:
-                data = api.recv(PacketSize).decode()
-                if isReceivingData == False:
-                    if data == "OK":
-                        print(f'[Flashstore Client] Server sent back "{data}".')
-                        api.send(API_Request.encode())
-                    elif data == "CLOSE":
-                        print(f'[Flashstore Client] Server sent back "{data}", terminating the connection!')
-                        isConnectionOpened = False
-                        return API_Data
-                    elif data == "DATA":
-                        print('[Flashstore Client] Attempting to now receive data from the server.')
-                        isReceivingData = True
-                    else:
-                        print('[Flashstore Client] ERROR: "', data, '"is not a known response!')
-                        isConnectionOpened = False
-                        return API_Data
-                else:
-                    if data == "SENT":
-                        isReceivingData = False
-                        print('[Flashstore Client] Data fully received.')
-                        api.send(Code_OK.encode())
-                    else:
-                        print(f'[Flashstore Client] Received Request with data as: "{data}".')
-                        API_Data = data
-            api.close()
+        RemoteServer.connect((ServerAddress, ServerPort))
+    except socket.error as ErrorInfo:
+        print(f'[Flashstore API // Client] Error connecting to the FlashStore API: "{ErrorInfo}".')
+    print(f'[Flashstore API // Client] Successfully connected to {ServerAddress}:{ServerPort}.')
+    print(f'[Flashstore API // Client] Sent that we are requesting to use version v{API_Version} of the API.')
+    RemoteServer.send(str.encode(API_Version))
+    while True:
+        RemoteServer_Response = RemoteServer.recv(PacketSize).decode()
+        if RemoteServer_Response == "":
+            if DebugMode == True: print("Server didn't send new data.")
+        else:
+            print(f'[Flashstore API // Client] Received Code: {RemoteServer_Response}.')
 
-    except Exception as ErrorInfo: 
-        print("[Flashstore Client] Error Level increased by 1 because of", ErrorInfo, ".")
-        ErrorLevel+=1
-        if ErrorLevel >= 3:
-            Exit = True
-            print("[Flashstore Client] Exited due to too many errors!")
-    print("[Flashstore Client] Function Ended.")
-
-#                                                                    Get     What       By User    Module/plugin Name
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET MODULES SIRIUSBYT"))
-time.sleep(2)
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET PLUGINS THARKI-GOD"))
-time.sleep(2)
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET MODULES"))
-time.sleep(2)
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET PLUGINS"))
-time.sleep(2)
-print("[Flashstore Client] Retrieved Data:", FlashstoreAPI_Request("GET USERS"))
-time.sleep(2)
+FlashClient_API_Request()
