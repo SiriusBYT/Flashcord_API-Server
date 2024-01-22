@@ -8,10 +8,10 @@ def FlashStore_API():
     ServerPort = 1407
     PacketSize = 1024
     API_Socket = socket.socket()
-    API_Version = "2"
+    API_Version = "2.0.1"
     DebugMode = True
     MaxTimeoutCount = 10
-    MaxIdleCount = 1000000
+    MaxIdleCount = 10
     RetryDelay = 1
 
     def FillRequest(RemoteClient, RequestData, ClientAddress):
@@ -100,9 +100,9 @@ def FlashStore_API():
                             elif API_Request[1] == "USERS":
                                 FillRequest(RemoteClient, str(UserData), ClientAddress)
                             else:
-                                NotFound(RemoteClient)
+                                InvalidArguments(RemoteClient)
                     else:
-                        NotFound(RemoteClient)
+                        InvalidArguments(RemoteClient)
         if DebugMode == True: print(f'Reached end of loop.')
         RemoteClient.close()
 
@@ -133,6 +133,10 @@ def FlashStore_API():
 
     def Sending(RemoteClient):
         RemoteClient.send(str.encode('SENDING'))
+
+    def InvalidArguments(RemoteClient):
+        RemoteClient.send(str.encode('INVALID_ARGUMENTS'))
+        RemoteClient.close()
 
     print(f'[Flashstore API] INFO: Initializing Server...\n')
     
