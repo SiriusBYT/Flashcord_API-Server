@@ -1,1 +1,1 @@
-py FlashStore-Client.py
+py Flashstore_API-Client.py

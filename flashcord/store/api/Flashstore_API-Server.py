@@ -8,14 +8,17 @@ def FlashStore_API():
     ServerPort = 1407
     PacketSize = 1024
     API_Socket = socket.socket()
-    API_Version = "2.0.1"
+    API_Version = 2.01
     DebugMode = True
-    MaxTimeoutCount = 10
-    MaxIdleCount = 10
-    RetryDelay = 1
+    MaxTimeoutCount = 3
+    MaxIdleCount = 3
+    RetryDelay = 5
 
     def FillRequest(RemoteClient, RequestData, ClientAddress):
-        Sending(RemoteClient)
+        try:
+            Sending(RemoteClient)
+        except Exception as ErrorInfo:
+            print(f'[Flashstore API // Server] An unknown error occurred while full-filling request. "{ErrorInfo}"')
         TimeoutCount = 0
         while True:
             RemoteClient_Response = RemoteClient.recv(PacketSize).decode()
@@ -29,14 +32,16 @@ def FlashStore_API():
                     Done(RemoteClient)
                     break
                 except:
-                    if DebugMode == True: print(f"TIMEOUT: {TimeoutCount}/{MaxTimeoutCount} Couldn't get new data from {ClientAddress}")
+                    if DebugMode == True: print(f"[Flashstore API // Server] WARNING: TIMEOUT({TimeoutCount}/{MaxTimeoutCount}) // Couldn't get new data from {ClientAddress}")
                     TimeoutCount+=1
                     time.sleep(RetryDelay)
             else:
-                if DebugMode == True: print(f"TIMEOUT: {TimeoutCount}/{MaxTimeoutCount} Couldn't get new data from {ClientAddress}")
+                if DebugMode == True: print(f"[Flashstore API // Server] WARNING: TIMEOUT({TimeoutCount}/{MaxTimeoutCount}) // Couldn't get new data from {ClientAddress}")
                 TimeoutCount+=1
                 time.sleep(RetryDelay)
-                
+        if DebugMode == True: print(f'[Flashstore API // Server] NOTICE: FillRequest Reached end of loop.')
+        RemoteClient.close()
+
     def isPreciseRequest(API_Request):
         isPreciseRequest = True
         try:
@@ -44,31 +49,42 @@ def FlashStore_API():
         except:
             isPreciseRequest = False
         return isPreciseRequest
-
+    
+    def isMissingArgument(API_Request):
+        isMissingArgument = False
+        try:
+            DummyVar = API_Request[1]
+        except:
+            isMissingArgument = True
+        return isMissingArgument
+    
     def API_Deliverer(RemoteClient, ClientAddress):
         RemoteClient_Response = RemoteClient.recv(PacketSize).decode()
-        if RemoteClient_Response != API_Version:
+        if float(RemoteClient_Response) < API_Version:
             print(f'[Flashstore API // Server] {ClientAddress} Requested API Version: {RemoteClient_Response}. [INVALID_API-VERSION]')
             InvalidVersion(RemoteClient)
-            RemoteClient.close()
         else:
-            print(f'[Flashstore API // Server] {ClientAddress} Requested API Version: {RemoteClient_Response}. [OK]')
-            OK(RemoteClient)
+            if float(RemoteClient_Response) == API_Version:
+                print(f'[Flashstore API // Server] {ClientAddress} Requested API Version: {RemoteClient_Response}. [OK]')
+                OK(RemoteClient)
+            else:
+                print(f'[Flashstore API // Server] {ClientAddress} Requested API Version: {RemoteClient_Response}. [SERVER-OUTDATED_API-VERSION]')
+                ServerOutdated(RemoteClient)
         TimeoutCount = 0
         IdleCount = 0
         while True:
             try:
                 RemoteClient_Response = RemoteClient.recv(PacketSize).decode()
             except:
-                if DebugMode == True: print(f"TIMEOUT: {TimeoutCount}/{MaxTimeoutCount} Couldn't get new data from {ClientAddress}")
+                if DebugMode == True: print(f"[Flashstore API // Server] WARNING: TIMEOUT({TimeoutCount}/{MaxTimeoutCount}) // Couldn't get new data from {ClientAddress}")
                 TimeoutCount+=1
                 time.sleep(RetryDelay)
 
             if TimeoutCount == MaxTimeoutCount:
-                print(f'[Flashstore API // Server] {ClientAddress} timed out.')
+                print(f'[Flashstore API // Server] INFO: {ClientAddress} timed out.')
                 break
             elif IdleCount == MaxIdleCount:
-                print(f'[Flashstore API // Server] {ClientAddress} idled for too long..')
+                print(f'[Flashstore API // Server] WARNING: {ClientAddress} idled for too long..')
                 break
             else:
                 if RemoteClient_Response == "":
@@ -79,31 +95,34 @@ def FlashStore_API():
                     print(f'[Flashstore API // Server] Received Request: "{RemoteClient_Response}".')
                     API_Request = RemoteClient_Response.replace("/"," ").split()
                     if API_Request[0] == "GET":
-                            if API_Request[1] == "MODULES":  
-                                if isPreciseRequest(API_Request) == True:
-                                    if API_Request[2].lower() in PluginData:
-                                        FillRequest(RemoteClient, ModuleData[ModuleData.index(API_Request[2].lower()) + 1], ClientAddress)
+                            if isMissingArgument(API_Request) == False:
+                                if API_Request[1] == "MODULES":  
+                                    if isPreciseRequest(API_Request) == True:
+                                        if API_Request[2].lower() in PluginData:
+                                            FillRequest(RemoteClient, ModuleData[ModuleData.index(API_Request[2].lower()) + 1], ClientAddress)
+                                        else:
+                                            NotFound(RemoteClient)
                                     else:
-                                        NotFound(RemoteClient)
-                                else:
-                                    FillRequest(RemoteClient, str(ModuleData), ClientAddress)
+                                        FillRequest(RemoteClient, str(ModuleData), ClientAddress)
 
-                            elif API_Request[1] == "PLUGINS":
-                                if isPreciseRequest(API_Request) == True:
-                                    if API_Request[2].lower() in PluginData:
-                                        FillRequest(RemoteClient, PluginData[PluginData.index(API_Request[2].lower()) + 1], ClientAddress)
+                                elif API_Request[1] == "PLUGINS":
+                                    if isPreciseRequest(API_Request) == True:
+                                        if API_Request[2].lower() in PluginData:
+                                            FillRequest(RemoteClient, PluginData[PluginData.index(API_Request[2].lower()) + 1], ClientAddress)
+                                        else:
+                                            NotFound(RemoteClient)
                                     else:
-                                        NotFound(RemoteClient)
+                                        FillRequest(RemoteClient, str(PluginData), ClientAddress)
+                                        
+                                elif API_Request[1] == "USERS":
+                                    FillRequest(RemoteClient, str(UserData), ClientAddress)
                                 else:
-                                    FillRequest(RemoteClient, str(PluginData), ClientAddress)
-                                    
-                            elif API_Request[1] == "USERS":
-                                FillRequest(RemoteClient, str(UserData), ClientAddress)
+                                    InvalidArguments(RemoteClient)
                             else:
-                                InvalidArguments(RemoteClient)
+                                MissingArguments(RemoteClient)
                     else:
                         InvalidArguments(RemoteClient)
-        if DebugMode == True: print(f'Reached end of loop.')
+        if DebugMode == True: print(f'[Flashstore API // Server] WARNING: API_Deliverer Reached end of loop.')
         RemoteClient.close()
 
     def IncomingConnection(Connection_Socket):
@@ -116,26 +135,48 @@ def FlashStore_API():
             print(f'[Flashstore API // Server] Giving up {ClientAddress}.')
 
     # Status Codes
-    def InvalidVersion(RemoteClient):
-        RemoteClient.send(str.encode('INVALID_API-VERSION'))
-        RemoteClient.close()
-    
+    def Sending(RemoteClient):
+        RemoteClient.send(str.encode('SENDING'))
+    def ServerOutdated(RemoteClient):
+        RemoteClient.send(str.encode('SERVER-OUTDATED_API-VERSION'))
     def OK(RemoteClient):
         RemoteClient.send(str.encode('OK'))
 
+    def InvalidVersion(RemoteClient):
+        try:
+            RemoteClient.send(str.encode('INVALID_API-VERSION'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send that the client has an invalid version.')
+        RemoteClient.close()
     def NotFound(RemoteClient):
-        RemoteClient.send(str.encode('NOT_FOUND'))
+        try:
+            RemoteClient.send(str.encode('NOT_FOUND'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send to the client that the request could not be found.')
         RemoteClient.close()
-
     def Done(RemoteClient):
-        RemoteClient.send(str.encode('DONE'))
+        try:
+            RemoteClient.send(str.encode('DONE'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send to the client that we are done.')
         RemoteClient.close()
-
-    def Sending(RemoteClient):
-        RemoteClient.send(str.encode('SENDING'))
-
     def InvalidArguments(RemoteClient):
-        RemoteClient.send(str.encode('INVALID_ARGUMENTS'))
+        try:
+            RemoteClient.send(str.encode('INVALID_ARGUMENTS'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send that the client has invalid arguments.')
+        RemoteClient.close()
+    def MissingArguments(RemoteClient):
+        try:
+            RemoteClient.send(str.encode('MISSING_ARGUMENTS'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send that the client is missing arguments.')
+        RemoteClient.close()
+    def UnknownError(RemoteClient):
+        try:
+            RemoteClient.send(str.encode('UNKNOWN_ERROR'))
+        except:
+            print(f'[Flashstore API // Server] NOTICE: Failed to send to the client that an unknown error occurred.')
         RemoteClient.close()
 
     print(f'[Flashstore API] INFO: Initializing Server...\n')

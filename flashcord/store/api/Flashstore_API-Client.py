@@ -8,11 +8,11 @@ def FlashClient_API_Request(API_Request):
 
     print(f'[Flashstore API // Client] INFO: Attempting to communicate with the FlashStore API...')
     # Server Information
-    ServerAddress = "aura-two.sirio-network.com"
+    ServerAddress = socket.gethostname()
     ServerPort = 1407
     PacketSize = 1024
     RemoteServer = socket.socket()
-    API_Version = "2.0.1"
+    API_Version = "2.01"
     DebugMode = False
     Data = []
     try:
@@ -23,8 +23,11 @@ def FlashClient_API_Request(API_Request):
     print(f'[Flashstore API // Client] Sent that we are requesting to use version v{API_Version} of the API.')
     RemoteServer.send(str.encode(API_Version))
     RemoteServer_Response = RemoteServer.recv(PacketSize).decode()
-    if True and RemoteServer_Response == "OK":
-        print(f'[Flashstore API // Client] Received Code: {RemoteServer_Response}, starting loop.')
+    if True and RemoteServer_Response == "OK" or RemoteServer_Response == "SERVER-OUTDATED_API-VERSION":
+        if RemoteServer_Response == "OK":
+            print(f'[Flashstore API // Client] Received Code: {RemoteServer_Response}, starting loop.')
+        else:
+            print(f'[Flashstore API // Client] WARNING: Received Code: {RemoteServer_Response}, which means the server is running an outdated API version, we are ignoring it and are starting the loop anyways, note that the request may fail.')
         print(f'[Flashstore API // Client] Requesting to the server "{API_Request}".')
         RemoteServer.send(str.encode(API_Request))
         while True:
@@ -48,11 +51,27 @@ def FlashClient_API_Request(API_Request):
                     return Data
                 elif RemoteServer_Response == "INVALID_ARGUMENTS":
                     print(f'[Flashstore API // Client] The server told us that our "{API_Request}" request is invalid!')
-    else:
+                    break
+                elif RemoteServer_Response == "MISSING_ARGUMENTS":
+                    print(f'[Flashstore API // Client] The server told us that "{API_Request}" is missing arguments!')
+                    break
+                elif RemoteServer_Response == "NOT_FOUND":
+                    print(f'[Flashstore API // Client] The server told us that "{API_Request}" could not be found!')
+                    break
+                elif RemoteServer_Response == "UNKNOWN_ERROR":
+                    print(f'[Flashstore API // Client] An Unknown Error Occurred!')
+                    return Data
+    elif True and RemoteServer_Response == "INVALID_API-VERSION":
         print(f'[Flashstore API // Client] The Flashstore Client is outdated! Server sent "{RemoteServer_Response}".')
+    else:
+        print(f'[Flashstore API // Client] Unknown error while connecting to server ! Server sent "{RemoteServer_Response}".')
 
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES/SIRIUSBYT"), '\n===================\n\n')
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS/THARKI-GOD"), '\n===================\n\n')
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/USERS"), '\n===================\n\n')
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES"), '\n===================\n\n')
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS/ATACANTUL"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/DEEZ/NUTS"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/DEEZ"), '\n===================\n\n')
