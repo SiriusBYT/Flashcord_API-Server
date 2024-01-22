@@ -86,8 +86,7 @@ def FlashStore_API():
                                     else:
                                         NotFound(RemoteClient)
                                 else:
-                                    FillRequest(RemoteClient, ModuleData, ClientAddress)
-                                    Done(RemoteClient)
+                                    FillRequest(RemoteClient, str(ModuleData), ClientAddress)
 
                             elif API_Request[1] == "PLUGINS":
                                 if isPreciseRequest(API_Request) == True:
@@ -96,10 +95,10 @@ def FlashStore_API():
                                     else:
                                         NotFound(RemoteClient)
                                 else:
-                                    FillRequest(RemoteClient, PluginData, ClientAddress)
+                                    FillRequest(RemoteClient, str(PluginData), ClientAddress)
                                     
                             elif API_Request[1] == "USERS":
-                                FillRequest(RemoteClient, UserData, ClientAddress)
+                                FillRequest(RemoteClient, str(UserData), ClientAddress)
                             else:
                                 NotFound(RemoteClient)
                     else:

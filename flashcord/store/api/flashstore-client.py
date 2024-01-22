@@ -51,6 +51,6 @@ def FlashClient_API_Request(API_Request):
 
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES/SIRIUSBYT"), '\n===================\n\n') # Works
 print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS/THARKI-GOD"), '\n===================\n\n') # Works
-#print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/USERS"), '\n===================\n\n') # Hangs the Client
-#print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES"), '\n===================\n\n') # Also hangs the Client
-#print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS"), '\n===================\n\n') # Still hangs the Client
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/USERS"), '\n===================\n\n') # Hangs the Client
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES"), '\n===================\n\n') # Also hangs the Client
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS"), '\n===================\n\n') # Still hangs the Client
