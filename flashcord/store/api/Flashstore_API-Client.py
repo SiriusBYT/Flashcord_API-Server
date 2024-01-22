@@ -51,8 +51,8 @@ def FlashClient_API_Request(API_Request):
     else:
         print(f'[Flashstore API // Client] The Flashstore Client is outdated! Server sent "{RemoteServer_Response}".')
 
-print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES/SIRIUSBYT"), '\n===================\n\n') # Works
-print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS/THARKI-GOD"), '\n===================\n\n') # Works
-print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/USERS"), '\n===================\n\n') # Hangs the Client
-print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES"), '\n===================\n\n') # Also hangs the Client
-print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS"), '\n===================\n\n') # Still hangs the Client
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES/SIRIUSBYT"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS/THARKI-GOD"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/USERS"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/MODULES"), '\n===================\n\n')
+print('\n\n===================\nRetrieved the data:', FlashClient_API_Request("GET/PLUGINS"), '\n===================\n\n')
