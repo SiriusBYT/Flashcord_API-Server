@@ -97,19 +97,21 @@ def FlashStore_API():
                     if API_Request[0] == "GET":
                             if isMissingArgument(API_Request) == False:
                                 if API_Request[1] == "MODULES":  
+                                    print(isPreciseRequest(API_Request))
+                                    print(API_Request[2])
                                     if isPreciseRequest(API_Request) == True:
-                                        if API_Request[2].lower() in PluginData:
+                                        try:
                                             FillRequest(RemoteClient, ModuleData[ModuleData.index(API_Request[2].lower()) + 1], ClientAddress)
-                                        else:
+                                        except:
                                             NotFound(RemoteClient)
                                     else:
                                         FillRequest(RemoteClient, str(ModuleData), ClientAddress)
 
                                 elif API_Request[1] == "PLUGINS":
                                     if isPreciseRequest(API_Request) == True:
-                                        if API_Request[2].lower() in PluginData:
+                                        try:
                                             FillRequest(RemoteClient, PluginData[PluginData.index(API_Request[2].lower()) + 1], ClientAddress)
-                                        else:
+                                        except:
                                             NotFound(RemoteClient)
                                     else:
                                         FillRequest(RemoteClient, str(PluginData), ClientAddress)
