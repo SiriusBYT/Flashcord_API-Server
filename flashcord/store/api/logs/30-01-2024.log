@@ -795,3 +795,27 @@
 [21:01:44] SUCCESS: New WebSocket connection from "127.0.0.1:52980".
 [21:01:44] API Version Check // OK: 127.0.0.1:52980@API_"3.0"
 [21:01:44] [OK] -> 127.0.0.1:52980
+[21:03:12] SYSTEM: Initializing server...
+[21:03:12] SYSTEM: Refreshing JSON...
+[21:03:12] SYSTEM: Loading JSON...
+[21:03:12] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[21:03:12] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[21:03:12] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[21:03:12] SYSTEM: Theme Data: []
+[21:03:12] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[21:03:12] SYSTEM: Server initialized.
+[21:03:12] INFO: Initiated WebSocket Translation Layer.
+[21:03:12] SYSTEM: Initiated Socket Server.
+[21:03:14] SUCCESS: New WebSocket connection from "127.0.0.1:53045".
+[21:03:14] API Version Check // OK: 127.0.0.1:53045@API_"3.0"
+[21:03:14] [OK] -> 127.0.0.1:53045
+[21:03:18] SUCCESS: New WebSocket connection from "127.0.0.1:53046".
+[21:03:18] API Version Check // WARNING: 127.0.0.1:53046@API_"4.0" is newer.
+[21:03:18] ["OUTDATED_SERVER"] -> 127.0.0.1:53046
+[21:03:18] TIMED OUT: 127.0.0.1:53046.
+[21:03:18] CLOSING: 127.0.0.1:53046.
+[21:03:18] ERROR: 127.0.0.1:53046 didn't send new data.
+[21:03:18] CLOSING: 127.0.0.1:53046.
+[21:04:27] SUCCESS: New WebSocket connection from "127.0.0.1:53067".
+[21:04:27] API Version Check // WARNING: 127.0.0.1:53067@API_"4.0" is newer.
+[21:04:27] ["OUTDATED_SERVER"] -> 127.0.0.1:53067
