@@ -4,7 +4,8 @@ import os
 Final_JSON = {
     "modules": "none",
     "plugins": "none",
-    "themes": "none"
+    "themes": "none",
+    "users": "none"
 }
 
 def ls(Folder):
@@ -40,7 +41,7 @@ def RefreshJSON():
             Addons = RemoveSuffix(AddonFolders)
             if Addons != "none":
                 AddonArray.append({CurrentUser: Addons})
-        if AddonArray != "none":
-            Final_JSON[AddonType[cycle]]=AddonArray
+        Final_JSON[AddonType[cycle]]=AddonArray
+    Final_JSON["users"]=UserFolders
     with open('data.json', 'w') as JSON_File:
         JSON_File.write(json.dumps(Final_JSON, indent = 1))
