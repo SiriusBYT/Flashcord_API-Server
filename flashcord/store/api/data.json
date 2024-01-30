@@ -1,29 +1,10 @@
 {
- "modules": [
-  {
-   "siriusbyt": [
-    "extended_chat_effects",
-    "infinite_chat_effects"
-   ]
-  }
- ],
- "plugins": [
-  {
-   "siriusbyt": [
-    "themehooker"
-   ]
-  },
-  {
-   "eastarctica": []
-  },
-  {
-   "tharki-god": []
-  }
- ],
+ "modules": [],
+ "plugins": [],
  "themes": [],
  "users": [
-  "siriusbyt",
-  "eastarctica",
-  "tharki-god"
+  "n",
+  "o",
+  "e"
  ]
 }

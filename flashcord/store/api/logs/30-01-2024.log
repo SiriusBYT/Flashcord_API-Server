@@ -819,3 +819,14 @@
 [21:04:27] SUCCESS: New WebSocket connection from "127.0.0.1:53067".
 [21:04:27] API Version Check // WARNING: 127.0.0.1:53067@API_"4.0" is newer.
 [21:04:27] ["OUTDATED_SERVER"] -> 127.0.0.1:53067
+[23:08:51] SYSTEM: Initializing server...
+[23:08:51] SYSTEM: Refreshing JSON...
+[23:08:51] SYSTEM: Loading JSON...
+[23:08:51] SYSTEM: Server Data: {'modules': [], 'plugins': [], 'themes': [], 'users': ['n', 'o', 'e']}
+[23:08:51] SYSTEM: Module Data: []
+[23:08:51] SYSTEM: Plugin Data: []
+[23:08:51] SYSTEM: Theme Data: []
+[23:08:51] SYSTEM: User Data: ['n', 'o', 'e']
+[23:08:51] SYSTEM: Server initialized.
+[23:08:51] INFO: Initiated WebSocket Translation Layer.
+[23:08:51] SYSTEM: Initiated Socket Server.
