@@ -5,6 +5,7 @@ import asyncio
 import _thread
 import threading
 import json
+from Flashstore_RefreshJSON import *
 
 """
 Very important almighty Flashstore API Banner
@@ -52,22 +53,26 @@ def WriteLog(Log,isDebugMessage):
 
 # Server Data Loader
 def GetServerData():
-    with open('data/modules.dat', 'r', encoding='utf-8') as Data_File:
-        ModuleData = Data_File.read().replace(" ", "").replace(":", "\n").split("\n")
-    with open('data/plugins.dat', 'r', encoding='utf-8') as Data_File:
-        PluginData = Data_File.read().replace(" ", "").replace(":", "\n").split("\n")
-    with open('data/users.dat', 'r', encoding='utf-8') as Data_File:
-        UserData = Data_File.read().replace(" ", "").replace(":", "\n").split("\n")
-    return ModuleData,PluginData,UserData
+    with open('data.json', 'r', encoding='utf-8') as Data_File:
+        Data_JSON = json.load(Data_File)
+        ModuleData = Data_JSON["modules"]
+        PluginData = Data_JSON["plugins"]
+        ThemeData = Data_JSON["plugins"]
+        UserData = Data_JSON["themes"]
+    return ModuleData,PluginData,UserData,Data_JSON
 
 def Bootstrap():
     print(Flood(16))
     print(ASCII_Banner)
     print(f"{ServerAddress}:{ServerPort}@API_{API_Version}/{ServerVersion} // Debug: {DebugMode} - Packet Size: {PacketSize}b\n")
     WriteLog(f'Initializing server...',False)
-    ModuleData,PluginData,UserData = GetServerData()
-    WriteLog(f'[INFO] Module Data: {ModuleData}',False)
-    WriteLog(f'[INFO] Plugin Data: {PluginData}',False)
+    WriteLog(f'Refreshing JSON...',False)
+    RefreshJSON()
+    WriteLog(f'Loading JSON...',False)
+    Data_Modules,Data_Plugins,Data_Themes,Data_Server = GetServerData()
+    WriteLog(f'[INFO] Server Data: {Data_Server}',False)
+    WriteLog(f'[INFO] Module Data: {Data_Modules}',False)
+    WriteLog(f'[INFO] Plugin Data: {Data_Plugins}',False)
     WriteLog(f'[INFO] User Data: {UserData}',False)
 
 Bootstrap()
