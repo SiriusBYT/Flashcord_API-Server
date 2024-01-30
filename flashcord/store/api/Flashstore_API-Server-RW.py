@@ -162,7 +162,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
 def SplashBanner():
     Flood(16)
     print(ASCII_Banner)
-    print(f"{Server_Address}:{Server_Port}@API_{Server_API_Version}/{Server_Version} // Debug: {DebugMode} - Packet Size: {Packet_Size}b\n")
+    WriteLog(f"{Server_Address}:{Server_Port}@API_{Server_API_Version}/{Server_Version} // Debug: {DebugMode} - Packet Size: {Packet_Size}b\n", False)
 
 """
 

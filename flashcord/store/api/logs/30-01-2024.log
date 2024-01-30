@@ -830,3 +830,16 @@
 [23:08:51] SYSTEM: Server initialized.
 [23:08:51] INFO: Initiated WebSocket Translation Layer.
 [23:08:51] SYSTEM: Initiated Socket Server.
+[23:10:55] Flanomare-W11:1407@API_3.0/r240129 // Debug: False - Packet Size: 1024b
+
+[23:10:55] SYSTEM: Initializing server...
+[23:10:55] SYSTEM: Refreshing JSON...
+[23:10:55] SYSTEM: Loading JSON...
+[23:10:55] SYSTEM: Server Data: {'modules': [], 'plugins': [], 'themes': [], 'users': ['n', 'o', 'e']}
+[23:10:55] SYSTEM: Module Data: []
+[23:10:55] SYSTEM: Plugin Data: []
+[23:10:55] SYSTEM: Theme Data: []
+[23:10:55] SYSTEM: User Data: ['n', 'o', 'e']
+[23:10:55] SYSTEM: Server initialized.
+[23:10:55] INFO: Initiated WebSocket Translation Layer.
+[23:10:55] SYSTEM: Initiated Socket Server.
