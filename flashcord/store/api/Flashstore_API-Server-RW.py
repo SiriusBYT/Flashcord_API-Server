@@ -12,6 +12,7 @@ import time # Required for logs
 import json # Server Data is in JSON format
 import os # Required for KeyboardInterrupt (DEBUG)
 import sys # Required for KeyboardInterrupt (DEBUG)
+import random # Required for Splash Text requests
 
 # Flashstore Scripts
 from Flashstore_RefreshJSON import *
@@ -21,14 +22,10 @@ EXTERNAL DEPENDENCIES TO INSTALL:
 - WebSockets
 """
 
-ASCII_Banner = " ▄▄▄▄▄▄▄ ▄▄▄     ▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄   ▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄   ▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄ \n\
-█       █   █   █      █       █  █ █  █       █       █       █   ▄  █ █       █  █       █       █   █ \n\
-█    ▄▄▄█   █   █  ▄   █  ▄▄▄▄▄█  █▄█  █  ▄▄▄▄▄█▄     ▄█   ▄   █  █ █ █ █    ▄▄▄█  █   ▄   █    ▄  █   █ \n\
-█   █▄▄▄█   █   █ █▄█  █ █▄▄▄▄▄█       █ █▄▄▄▄▄  █   █ █  █ █  █   █▄▄█▄█   █▄▄▄   █  █▄█  █   █▄█ █   █ \n\
-█    ▄▄▄█   █▄▄▄█      █▄▄▄▄▄  █   ▄   █▄▄▄▄▄  █ █   █ █  █▄█  █    ▄▄  █    ▄▄▄█  █       █    ▄▄▄█   █ \n\
-█   █   █       █  ▄   █▄▄▄▄▄█ █  █ █  █▄▄▄▄▄█ █ █   █ █       █   █  █ █   █▄▄▄   █   ▄   █   █   █   █ \n\
-█▄▄▄█   █▄▄▄▄▄▄▄█▄█ █▄▄█▄▄▄▄▄▄▄█▄▄█ █▄▄█▄▄▄▄▄▄▄█ █▄▄▄█ █▄▄▄▄▄▄▄█▄▄▄█  █▄█▄▄▄▄▄▄▄█  █▄▄█ █▄▄█▄▄▄█   █▄▄▄█ \
-"
+ASCII_Banner = "░█▀▀░█░░░█▀█░█▀▀░█░█░█▀▀░█▀█░█▀▄░█▀▄░░░█▀█░█▀█░▀█▀░░░█▀▀░█▀▀░█▀▄░█░█░█▀▀░█▀▄\n\
+░█▀▀░█░░░█▀█░▀▀█░█▀█░█░░░█░█░█▀▄░█░█░░░█▀█░█▀▀░░█░░░░▀▀█░█▀▀░█▀▄░▀▄▀░█▀▀░█▀▄\n\
+░▀░░░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀░░░░▀░▀░▀░░░▀▀▀░░░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀░▀"
+
 """
 Very important almighty Flashstore API Banner
 Legends say that removing this banner will cause the world to explode.
@@ -37,11 +34,12 @@ Legends say that removing this banner will cause the world to explode.
 # Server Information
 Server_Address = socket.gethostname()
 Server_Port = 1407
-Server_Version = "r240129"
+Server_Version = "r240201"
 Server_API_Version = 3.0
 API_Socket = socket.socket()
 Packet_Size = 1024
-DebugMode = False
+Debug_Mode = False
+Current_Connections = []
 
 # This is useless and is only used once but hey, you never know if you gonna need this useless piece of shit. I swear I'm not a function hoarder.
 def Flood(Lines):
@@ -60,8 +58,9 @@ def WriteLog(Log,isDebugMessage):
     FileLog = f'{PrintLog}\n'
     with open(LogFile, "a", encoding="utf=8") as LogFile:
         LogFile.write(FileLog)
-        if isDebugMessage == True and DebugMode == True: print(PrintLog)
+        if isDebugMessage == True and Debug_Mode == True: print(PrintLog)
         elif isDebugMessage == False: print(PrintLog)
+
 
 # Server Data Loader & Debug Display
 def Display_Data():
@@ -100,69 +99,121 @@ def WebSocket_Server():
     asyncio.run(Websocket_Listener())
 
 def Socket_Server():
-    def Socket_Handler(Connection_Socket):
-        Address = Connection_Socket.accept()
+    async def Socket_Handler(Connection_Socket):
+        Client_Socket, Address = Connection_Socket.accept()
         Client_Address = str(Address[0])+":"+str(Address[1])
-        WriteLog(f"CONNECTION: {Client_Address} [SUCCESS]",True)
-        try: _thread.start_new_thread(Application_Programming_Interface, (Connection_Socket, Client_Address, False))
+        WriteLog(f"CONNECTION: {Client_Address} [SUCCESS]",False)
+        try: await Application_Programming_Interface(Client_Socket, Client_Address, False)
         except Exception as ErrorInfo: WriteLog(f'DROPPED: {Client_Address}. \n[TRACEBACK]\n{ErrorInfo}\n',True)
+    def Socket_Asyncer(Connection_Socket):
+        asyncio.run(Socket_Handler(Connection_Socket))
     try: API_Socket.bind((Server_Address, Server_Port))
     except socket.error as ErrorInfo: WriteLog(f"CRITICAL ERROR: Failed to bind the server's address! \n[TRACEBACK]\n{ErrorInfo}\n",False)
     WriteLog(f'SYSTEM: Initiated Socket Server.',False)
     API_Socket.listen()
-    while True: Socket_Handler(API_Socket)
+    while True: Asyncer = threading.Thread(target=Socket_Asyncer(API_Socket)); Asyncer.start()
 
-# WARNING: Async hell. Why? Because WebSockets are fucking ass and complain & errors out if you don't await the .recv()
+def ArrayIndexExists(Array,Index):
+    try: DummyVar = Array[Index]; return True
+    except: return False
+
+
+# WARNING: Async hell. Why? Because WebSockets are fucking ass and copy mplain & errors out if you don't await the .recv()
 async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
     # Key Handling Functions
-    async def Close_Connection(): WriteLog(f"CLOSING: {Client_Address}.", False); await Client.close()
-    async def ReceiveData():
+    async def Close_Connection(): 
+        # Client_IP = Client_Address.split(); Client_IP =  Client_IP[0]; Current_Connections.remove(Client_IP[0])
+        WriteLog(f"CLOSING: {Client_Address}.", False)
+        if isWebSocket == True: await Client.close()
+        else: Client.close()
+    async def Mono_Connection():
+        Client_IP = Client_Address.split(); Client_IP =  Client_IP[0]
+        if Client_IP in Current_Connections: await Code_Already_Connected()
+        else: Current_Connections.append(Client_IP)
+    async def Receive_Data():
         try:
             if isWebSocket == True: Response = await Client.recv()
-            else: Response = await Client.recv(Packet_Size).decode()
+            else: Response = (Client.recv(Packet_Size)).decode()
+            return Response
         except: WriteLog(f"TIMED OUT: {Client_Address}.", False); await Close_Connection(); return
-        return Response
     async def Send(Packet):
-        if isWebSocket == True: await Client.send(Packet)
-        else: await Client.send(Packet).encode()
-        
+        if isWebSocket == True: await Client.send(str(Packet))
+        else: Client.send(str(Packet).encode())
+
     # Status Codes
         # General Codes
     async def Code_OK(): WriteLog(f'[OK] -> {Client_Address}', True); await Send("OK")
         # Client Error Codes
+            # API Version Codes
     async def Code_Client_Invalid_Version(): WriteLog(f'["INVALID_VERSION"] -> {Client_Address}', True); await Send("INVALID_VERSION"); await Close_Connection()
     async def Code_Client_Outdated(): WriteLog(f'["OUTDATED_VERSION"] -> {Client_Address}', True); await Send("OUTDATED_VERSION"); await Close_Connection()
+            # API Request Codes
+    async def Code_Invalid_Request(): WriteLog(f'INVALID_REQUEST: {Client_Request} from {Client_Address}', False); await Send("INVALID_REQUEST"); await Close_Connection()
+    async def Code_Missing_Arguments(): WriteLog(f'MISSING_ARGUMENTS: {Client_Request} from {Client_Address}', False); await Send("MISSING_ARGUMENTS"); await Close_Connection()
+    async def Code_Not_Found(): WriteLog(f'NOT_FOUND: {Client_Request} from {Client_Address}', False); await Send("NOT_FOUND");
+            # Other Codes
+    async def Code_Already_Connected(): await Send("ALREADY_CONNECTED"); await Close_Connection();
         # Server Error Codes
     async def Code_Server_Outdated(): WriteLog(f'["OUTDATED_SERVER"] -> {Client_Address}', True); await Send("OUTDATED_SERVER")
 
     # Important Handling Functions
     async def CheckVersion():
-        Client_Data = await ReceiveData()
+        Client_Data = await Receive_Data()
         try: Client_Version = float(Client_Data)
-        except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return
-        if Client_Version == Server_API_Version: WriteLog(f'API Version Check // OK: {Client_Address}@API_"{Client_Data}"', False); await Code_OK(); return True
-        elif Client_Version > Server_API_Version: WriteLog(f'API Version Check // WARNING: {Client_Address}@API_"{Client_Data}" is newer.', False); await Code_Server_Outdated(); return True
-        elif Client_Version < Server_API_Version: WriteLog(f'API Version Check // ERROR: {Client_Address}@API_"{Client_Data}" is outdated!', False); await Code_Client_Outdated(); return False
-
-
-    # Server Logic
-    shouldProceed = await CheckVersion()
-    if shouldProceed == True:
-        Client_Request = await ReceiveData()
+        except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return False
+        if Client_Version == Server_API_Version: WriteLog(f'API Version Check // [OK] {Client_Address}@API_{Client_Data}', False); await Code_OK(); return True
+        elif Client_Version > Server_API_Version: WriteLog(f'API Version Check // [WARNING] {Client_Address}@API_{Client_Data} is newer.', False); await Code_Server_Outdated(); return True
+        elif Client_Version < Server_API_Version: WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
+    async def SearchNSend(Selected_Data, Selected_User):
+        cycle = 0
+        for cycle in range (len(Selected_Data)):
+            if Selected_User in Selected_Data[cycle]: await Send(Selected_Data[cycle][Selected_User]); return cycle
+        return None
+        
+    # Server Logic (if statement hell // r240201 Update: I forgot switch statements existed lol, this is much better.)
+    if await CheckVersion() == True:
+        Client_Request = (await Receive_Data()).split("/")
         if Client_Request != None:
-            Client_Request = Client_Request.split("/")
-            print(f"wow it worked {Client_Request}")
-        else:
-            WriteLog(f"ERROR: {Client_Address} didn't send new data.", False)
-            await Close_Connection()
-            return
-    else: return
+            WriteLog(f'REQUEST: {Client_Request} from {Client_Address}.', False)
+            if Client_Request != ['']:
+                match Client_Request[0] :
+                    case "GET":
+                        if ArrayIndexExists(Client_Request, 1) == True:
+                            match Client_Request[1]:
+                                case "MODULES":
+                                    if ArrayIndexExists(Client_Request, 2) == True:
+                                        Search_Result = await SearchNSend(Data_Modules, Client_Request[2].lower())
+                                        if Search_Result != None: WriteLog(f'[SUCCESS] "Data_Modules[{Search_Result}][{Client_Request[2]}]" -> {Client_Address}.', False)
+                                        else: await Code_Not_Found()
+                                    else: WriteLog(f'[SUCCESS] "Data_Modules" -> {Client_Address}.', False); await Send(Data_Modules)
+                                case "PLUGINS":
+                                    if ArrayIndexExists(Client_Request, 2) == True:
+                                        Search_Result = await SearchNSend(Data_Plugins, Client_Request[2].lower())
+                                        if Search_Result != None: WriteLog(f'[SUCCESS] "Data_Plugins[{Search_Result}][{Client_Request[2]}]" -> {Client_Address}.', False)
+                                        else: await Code_Not_Found()
+                                    else: WriteLog(f'[SUCCESS] "Data_Plugins" -> {Client_Address}.', False); await Send(Data_Plugins)
+                                case "THEMES":
+                                    if ArrayIndexExists(Client_Request, 2) == True:
+                                        Search_Result = await SearchNSend(Data_Themes, Client_Request[2].lower())
+                                        if Search_Result != None: WriteLog(f'[SUCCESS] "Data_Themes[{Search_Result}][{Client_Request[2]}]" -> {Client_Address}.', False)
+                                        else: await Code_Not_Found()
+                                    else: WriteLog(f'[SUCCESS] "Data_Themes" -> {Client_Address}.', False); await Send(Data_Themes)
+                                case "USERS": WriteLog(f'[SUCCESS] "Data_Users" -> {Client_Address}.', False); await Send(Data_Users)
+                                case "SERVER_VERSION": WriteLog(f'[SUCCESS] "Server_Version" -> {Client_Address}.', False); await Send(Server_Version)
+                                case "API_VERSION": WriteLog(f'[SUCCESS] "Server_API_Version" -> {Client_Address}.', False); await Send(Server_API_Version)
+                                case _: await Code_Invalid_Request(); return
+                        else: WriteLog(f'[SUCCESS] "Data_Server" -> {Client_Address}', False); await Send(Data_Server)
+                    case _: await Code_Invalid_Request()
+            else: WriteLog(f"[ERROR] {Client_Address} sent an empty request!", False)
+        else: WriteLog(f"[ERROR] {Client_Address} didn't send new data.", False)
+    await Close_Connection()
+    return
 
 # Glorious.
 def SplashBanner():
     Flood(16)
     print(ASCII_Banner)
-    WriteLog(f"{Server_Address}:{Server_Port}@API_{Server_API_Version}/{Server_Version} // Debug: {DebugMode} - Packet Size: {Packet_Size}b\n", False)
+    WriteLog(f"{Server_Address}:{Server_Port}@API_{Server_API_Version}/{Server_Version} // Debug: {Debug_Mode} - Packet Size: {Packet_Size}b\n", False)
 
 """
 
@@ -205,8 +256,7 @@ def Bootstrap():
     WebSocket_Thread = threading.Thread(target=WebSocket_Server); WebSocket_Thread.start()
     Socket_Thread = threading.Thread(target=Socket_Server); Socket_Thread.start()
     WriteLog(f'SYSTEM: Server initialized.',False)
-    try: 
-        # Server Routine after Server Execution
+    try: # Post-Execution Routine
         while True: 
             time.sleep(1)
             # There would be more code here, but right now I'm lazy.
@@ -217,3 +267,4 @@ def Bootstrap():
 # Spark
 if __name__== '__main__': Bootstrap()
 else: print("The fuck you doing m8? This isn't a module!")
+

@@ -135,7 +135,7 @@ def isMissingArgument(API_Request):
     return isMissingArgument
 
 
-def FlashStore_API():
+def Flashcord_API_Server():
     LogString = f'INFO: Initializing server on {ServerAddress}:{ServerPort}, running Flashstore API Version {API_Version} and Flashstore API Server version {ServerVersion}.'
     WriteToLog(LogString,False)
 
@@ -307,5 +307,5 @@ def FlashStore_API():
     while True:
         IncomingConnection(API_Socket)
 
-FlashStore_API()
+Flashcord_API_Server()
 
