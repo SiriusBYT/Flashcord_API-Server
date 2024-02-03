@@ -34,12 +34,12 @@ Legends say that removing this banner will cause the world to explode.
 # Server Information
 Server_Address = socket.gethostname()
 Server_Port = 1407
-Server_Version = "r240201"
+Server_Version = "r240203"
 Server_API_Version = 3.0
 API_Socket = socket.socket()
 Packet_Size = 1024
 Debug_Mode = False
-Current_Connections = []
+Active_Connections = []
 
 # This is useless and is only used once but hey, you never know if you gonna need this useless piece of shit. I swear I'm not a function hoarder.
 def Flood(Lines):
@@ -69,8 +69,10 @@ def Display_Data():
     WriteLog(f'SYSTEM: Plugin Data: {Data_Plugins}',False)
     WriteLog(f'SYSTEM: Theme Data: {Data_Themes}',False)
     WriteLog(f'SYSTEM: User Data: {Data_Users}',False)
+    WriteLog(f'SYSTEM: Banned IPs Data: {Data_Banned}',False)
+    WriteLog(f'SYSTEM: Splash Text Data: {Data_SplashText}',False)
 def GetServerData():
-    global Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server
+    global Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server,Data_Banned,Data_SplashText,Data_Views,Data_Install
     WriteLog(f'SYSTEM: Refreshing JSON...',False)
     RefreshJSON()
     WriteLog(f'SYSTEM: Loading JSON...',False)
@@ -80,9 +82,12 @@ def GetServerData():
         Data_Plugins = Data_Server["plugins"]
         Data_Themes = Data_Server["themes"]
         Data_Users = Data_Server["users"]
+    with open('banned.dat', 'r', encoding='utf-8') as Banned_File: Data_Banned = Banned_File.read().split("\n")
+    with open('splash-text.dat', 'r', encoding='utf-8') as Splash_File:
+        Data_SplashText = Splash_File.read().split("\n")
+        for line in range (len(Data_SplashText)): Data_SplashText[line] = Data_SplashText[line].replace("[N]","\n")
     Display_Data()
-    return Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server
-
+    return Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server,Data_Banned,Data_SplashText
 
 
 # Server Handlers
@@ -122,14 +127,14 @@ def ArrayIndexExists(Array,Index):
 async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
     # Key Handling Functions
     async def Close_Connection(): 
-        # Client_IP = Client_Address.split(); Client_IP =  Client_IP[0]; Current_Connections.remove(Client_IP[0])
+        #Client_IP = Client_Address.split(); Active_Connections = Active_Connections.remove(Client_IP[0])
         WriteLog(f"CLOSING: {Client_Address}.", False)
         if isWebSocket == True: await Client.close()
         else: Client.close()
     async def Mono_Connection():
-        Client_IP = Client_Address.split(); Client_IP =  Client_IP[0]
-        if Client_IP in Current_Connections: await Code_Already_Connected()
-        else: Current_Connections.append(Client_IP)
+        Client_IP = Client_Address.split(":"); Client_IP =  Client_IP[0]
+        if Client_IP in Active_Connections: await Code_Already_Connected(); return False
+        else: Active_Connections.append(Client_IP)
     async def Receive_Data():
         try:
             if isWebSocket == True: Response = await Client.recv()
@@ -139,6 +144,9 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
     async def Send(Packet):
         if isWebSocket == True: await Client.send(str(Packet))
         else: Client.send(str(Packet).encode())
+    async def Ban_Check():
+        Client_IP = Client_Address.split(":"); Client_IP = Client_IP[0]
+        if Client_IP in Data_Banned: await Code_API_Banned(); return True
 
     # Status Codes
         # General Codes
@@ -148,16 +156,20 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
     async def Code_Client_Invalid_Version(): WriteLog(f'["INVALID_VERSION"] -> {Client_Address}', True); await Send("INVALID_VERSION"); await Close_Connection()
     async def Code_Client_Outdated(): WriteLog(f'["OUTDATED_VERSION"] -> {Client_Address}', True); await Send("OUTDATED_VERSION"); await Close_Connection()
             # API Request Codes
-    async def Code_Invalid_Request(): WriteLog(f'INVALID_REQUEST: {Client_Request} from {Client_Address}', False); await Send("INVALID_REQUEST"); await Close_Connection()
-    async def Code_Missing_Arguments(): WriteLog(f'MISSING_ARGUMENTS: {Client_Request} from {Client_Address}', False); await Send("MISSING_ARGUMENTS"); await Close_Connection()
-    async def Code_Not_Found(): WriteLog(f'NOT_FOUND: {Client_Request} from {Client_Address}', False); await Send("NOT_FOUND");
+    async def Code_Not_Found(): WriteLog(f'NOT_FOUND: {Client_Request} from {Client_Address}', False); await Send("NOT_FOUND")
+    async def Code_Already_Done(): WriteLog(f'ALREADY_DONE: {Client_Request} from {Client_Address}', False); await Send("ALREADY_DONE")
+    async def Code_Invalid_Request(): WriteLog(f'INVALID_REQUEST: {Client_Request} from {Client_Address}', False); await Send("INVALID_REQUEST")
+    async def Code_Missing_Arguments(): WriteLog(f'MISSING_ARGUMENTS: {Client_Request} from {Client_Address}', False); await Send("MISSING_ARGUMENTS")
             # Other Codes
-    async def Code_Already_Connected(): await Send("ALREADY_CONNECTED"); await Close_Connection();
+    async def Code_Already_Connected(): WriteLog(f'ALREADY_CONNECTED: {Client_Address}', False); await Send("ALREADY_CONNECTED"); await Close_Connection();
+    async def Code_API_Banned(): WriteLog(f'API_BANNED: {Client_Address}', False); await Send("API_BANNED")
         # Server Error Codes
     async def Code_Server_Outdated(): WriteLog(f'["OUTDATED_SERVER"] -> {Client_Address}', True); await Send("OUTDATED_SERVER")
 
     # Important Handling Functions
     async def CheckVersion():
+        if await Ban_Check() == True: return False
+        #if await Mono_Connection() == False: return False
         Client_Data = await Receive_Data()
         try: Client_Version = float(Client_Data)
         except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return False
@@ -169,14 +181,29 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         for cycle in range (len(Selected_Data)):
             if Selected_User in Selected_Data[cycle]: await Send(Selected_Data[cycle][Selected_User]); return cycle
         return None
-        
+    async def HotJSON_Write_ViewInst(CheckWhichFile):
+        with open(CheckWhichFile, "r", encoding="utf-8") as File: HotJSON = json.load(File)
+        if Client_Request[2] in HotJSON:
+            Client_IP = Client_Address.split(":"); Client_IP = Client_IP[0]
+            if Client_IP in HotJSON[Client_Request[2]]: WriteLog(f'[ERROR] IP Address {Client_IP} is already in {Client_Request[2]} of {CheckWhichFile}!', False);  await Code_Already_Done()
+            else: 
+                with open(CheckWhichFile, "w", encoding="utf-8") as File:
+                    TempArray = HotJSON[Client_Request[2]]; TempArray.append(Client_IP)
+                    HotJSON[Client_Request[2]] = TempArray; File.write(json.dumps(HotJSON, indent = 1))
+                    WriteLog(f'[SUCCESS] Added IP Address {Client_IP} for {Client_Request[2]} in {CheckWhichFile}.', False); await Code_OK()
+        else: await Code_Not_Found()
+    async def HotJSON_Read_ViewInst(CheckWhichFile):
+        with open(CheckWhichFile, "r", encoding="utf-8") as File: HotJSON = json.load(File)
+        if Client_Request[2] in HotJSON: XCount = len(HotJSON[Client_Request[2]]); WriteLog(f'[SUCCESS] "{XCount}" -> {Client_Address}.', False); await Send(XCount)
+        else: await Code_Not_Found()
+
     # Server Logic (if statement hell // r240201 Update: I forgot switch statements existed lol, this is much better.)
     if await CheckVersion() == True:
         Client_Request = (await Receive_Data()).split("/")
         if Client_Request != None:
             WriteLog(f'REQUEST: {Client_Request} from {Client_Address}.', False)
             if Client_Request != ['']:
-                match Client_Request[0] :
+                match Client_Request[0]:
                     case "GET":
                         if ArrayIndexExists(Client_Request, 1) == True:
                             match Client_Request[1]:
@@ -198,11 +225,31 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
                                         if Search_Result != None: WriteLog(f'[SUCCESS] "Data_Themes[{Search_Result}][{Client_Request[2]}]" -> {Client_Address}.', False)
                                         else: await Code_Not_Found()
                                     else: WriteLog(f'[SUCCESS] "Data_Themes" -> {Client_Address}.', False); await Send(Data_Themes)
+                                case "VIEWS":
+                                    if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Read_ViewInst("views.json")
+                                    else: await Code_Missing_Arguments()
+                                case "INSTALLS":
+                                    if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Read_ViewInst("installs.json")
+                                    else: await Code_Missing_Arguments()
                                 case "USERS": WriteLog(f'[SUCCESS] "Data_Users" -> {Client_Address}.', False); await Send(Data_Users)
                                 case "SERVER_VERSION": WriteLog(f'[SUCCESS] "Server_Version" -> {Client_Address}.', False); await Send(Server_Version)
                                 case "API_VERSION": WriteLog(f'[SUCCESS] "Server_API_Version" -> {Client_Address}.', False); await Send(Server_API_Version)
-                                case _: await Code_Invalid_Request(); return
+                                case "SPLASH_TEXT":
+                                    Selected_Splash = Data_SplashText[random.randint(0,len(Data_SplashText) - 1)]
+                                    WriteLog(f'[SUCCESS] "{Selected_Splash}" -> {Client_Address}.', False); await Send(Selected_Splash)
+                                case _: await Code_Invalid_Request()
                         else: WriteLog(f'[SUCCESS] "Data_Server" -> {Client_Address}', False); await Send(Data_Server)
+                    case "ADD_STAT":
+                        if ArrayIndexExists(Client_Request, 1) == True:
+                            match Client_Request[1]:
+                                case "VIEWS":
+                                    if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Write_ViewInst("views.json")
+                                    else: await Code_Missing_Arguments()
+                                case "INSTALLS":
+                                    if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Write_ViewInst("installs.json")
+                                    else: await Code_Missing_Arguments()
+                                case _: await Code_Invalid_Request()
+                        else: await Code_Missing_Arguments()
                     case _: await Code_Invalid_Request()
             else: WriteLog(f"[ERROR] {Client_Address} sent an empty request!", False)
         else: WriteLog(f"[ERROR] {Client_Address} didn't send new data.", False)
@@ -248,11 +295,12 @@ Go add the rest of the lyrics yourself.
 
 """
 def Bootstrap():
+    global Active_Connections
     SplashBanner()
     WriteLog(f'SYSTEM: Initializing server...',False)
 
     # Retrieve server data
-    Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server = GetServerData()
+    Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server,Data_Banned,Data_SplashText = GetServerData()
     WebSocket_Thread = threading.Thread(target=WebSocket_Server); WebSocket_Thread.start()
     Socket_Thread = threading.Thread(target=Socket_Server); Socket_Thread.start()
     WriteLog(f'SYSTEM: Server initialized.',False)

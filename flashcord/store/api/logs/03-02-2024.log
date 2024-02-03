@@ -1,0 +1,1607 @@
+[13:08:58] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:08:58] SYSTEM: Initializing server...
+[13:08:58] SYSTEM: Refreshing JSON...
+[13:08:58] SYSTEM: Loading JSON...
+[13:08:58] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:08:58] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:08:58] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:08:58] SYSTEM: Theme Data: []
+[13:08:58] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:08:58] SYSTEM: Server initialized.
+[13:08:58] INFO: Initiated WebSocket Translation Layer.
+[13:08:58] SYSTEM: Initiated Socket Server.
+[13:09:05] CONNECTION: 192.168.1.2:50482 [SUCCESS]
+[13:09:05] API Version Check // [OK] 192.168.1.2:50482@API_3.0
+[13:09:05] [OK] -> 192.168.1.2:50482
+[13:09:05] REQUEST: ['GET'] from 192.168.1.2:50482.
+[13:09:05] [SUCCESS] "Data_Server" -> 192.168.1.2:50482
+[13:09:05] CLOSING: 192.168.1.2:50482.
+[13:11:02] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:11:02] SYSTEM: Initializing server...
+[13:11:02] SYSTEM: Refreshing JSON...
+[13:11:02] SYSTEM: Loading JSON...
+[13:11:12] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:11:12] SYSTEM: Initializing server...
+[13:11:12] SYSTEM: Refreshing JSON...
+[13:11:12] SYSTEM: Loading JSON...
+[13:11:12] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:11:12] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:11:12] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:11:12] SYSTEM: Theme Data: []
+[13:11:12] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:11:43] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:11:43] SYSTEM: Initializing server...
+[13:11:43] SYSTEM: Refreshing JSON...
+[13:11:43] SYSTEM: Loading JSON...
+[13:11:43] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:11:43] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:11:43] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:11:43] SYSTEM: Theme Data: []
+[13:11:43] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:11:53] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:11:53] SYSTEM: Initializing server...
+[13:11:53] SYSTEM: Refreshing JSON...
+[13:11:53] SYSTEM: Loading JSON...
+[13:11:53] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:11:53] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:11:53] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:11:53] SYSTEM: Theme Data: []
+[13:11:53] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:11:53] SYSTEM: Banned IPs Data: ['192.168.1.2\n192.168.1.3']
+[13:11:53] SYSTEM: Server initialized.
+[13:11:53] INFO: Initiated WebSocket Translation Layer.
+[13:11:53] SYSTEM: Initiated Socket Server.
+[13:12:02] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:12:02] SYSTEM: Initializing server...
+[13:12:02] SYSTEM: Refreshing JSON...
+[13:12:02] SYSTEM: Loading JSON...
+[13:12:02] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:12:02] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:12:02] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:12:02] SYSTEM: Theme Data: []
+[13:12:02] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:12:02] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:12:02] SYSTEM: Server initialized.
+[13:12:02] INFO: Initiated WebSocket Translation Layer.
+[13:12:02] SYSTEM: Initiated Socket Server.
+[13:15:37] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:15:37] SYSTEM: Initializing server...
+[13:15:37] SYSTEM: Refreshing JSON...
+[13:15:37] SYSTEM: Loading JSON...
+[13:15:37] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:15:37] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:15:37] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:15:37] SYSTEM: Theme Data: []
+[13:15:37] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:15:37] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:15:37] SYSTEM: Server initialized.
+[13:15:37] INFO: Initiated WebSocket Translation Layer.
+[13:15:37] SYSTEM: Initiated Socket Server.
+[13:15:39] CONNECTION: 192.168.1.2:50581 [SUCCESS]
+[13:15:39] API Version Check // [OK] 192.168.1.2:50581@API_3.0
+[13:15:39] [OK] -> 192.168.1.2:50581
+[13:15:39] REQUEST: ['GET'] from 192.168.1.2:50581.
+[13:15:39] [SUCCESS] "Data_Server" -> 192.168.1.2:50581
+[13:15:39] CLOSING: 192.168.1.2:50581.
+[13:15:51] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:15:51] SYSTEM: Initializing server...
+[13:15:51] SYSTEM: Refreshing JSON...
+[13:15:51] SYSTEM: Loading JSON...
+[13:15:51] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:15:51] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:15:51] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:15:51] SYSTEM: Theme Data: []
+[13:15:51] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:15:51] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:15:51] SYSTEM: Server initialized.
+[13:15:51] INFO: Initiated WebSocket Translation Layer.
+[13:15:51] SYSTEM: Initiated Socket Server.
+[13:15:53] CONNECTION: 192.168.1.2:50593 [SUCCESS]
+[13:15:53] API Version Check // [OK] 192.168.1.2:50593@API_3.0
+[13:15:53] [OK] -> 192.168.1.2:50593
+[13:15:53] REQUEST: ['GET'] from 192.168.1.2:50593.
+[13:15:53] [SUCCESS] "Data_Server" -> 192.168.1.2:50593
+[13:15:53] CLOSING: 192.168.1.2:50593.
+[13:16:02] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:16:02] SYSTEM: Initializing server...
+[13:16:02] SYSTEM: Refreshing JSON...
+[13:16:02] SYSTEM: Loading JSON...
+[13:16:02] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:16:02] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:16:02] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:16:02] SYSTEM: Theme Data: []
+[13:16:02] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:16:02] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:16:02] SYSTEM: Server initialized.
+[13:16:02] INFO: Initiated WebSocket Translation Layer.
+[13:16:02] SYSTEM: Initiated Socket Server.
+[13:16:04] CONNECTION: 192.168.1.2:50601 [SUCCESS]
+[13:16:04] DROPPED: 192.168.1.2:50601. 
+[TRACEBACK]
+cannot access free variable 'Code_API_Banned' where it is not associated with a value in enclosing scope
+
+[13:16:57] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:16:57] SYSTEM: Initializing server...
+[13:16:57] SYSTEM: Refreshing JSON...
+[13:16:57] SYSTEM: Loading JSON...
+[13:16:57] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:16:57] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:16:57] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:16:57] SYSTEM: Theme Data: []
+[13:16:57] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:16:57] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:16:57] SYSTEM: Server initialized.
+[13:16:57] INFO: Initiated WebSocket Translation Layer.
+[13:16:57] SYSTEM: Initiated Socket Server.
+[13:16:58] CONNECTION: 192.168.1.2:50611 [SUCCESS]
+[13:16:58] API Version Check // [OK] 192.168.1.2:50611@API_3.0
+[13:16:58] [OK] -> 192.168.1.2:50611
+[13:16:58] REQUEST: ['GET'] from 192.168.1.2:50611.
+[13:16:58] [SUCCESS] "Data_Server" -> 192.168.1.2:50611
+[13:16:58] CLOSING: 192.168.1.2:50611.
+[13:17:11] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:17:11] SYSTEM: Initializing server...
+[13:17:11] SYSTEM: Refreshing JSON...
+[13:17:11] SYSTEM: Loading JSON...
+[13:17:11] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:17:11] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:17:11] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:17:11] SYSTEM: Theme Data: []
+[13:17:11] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:17:11] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:17:11] SYSTEM: Server initialized.
+[13:17:11] INFO: Initiated WebSocket Translation Layer.
+[13:17:11] SYSTEM: Initiated Socket Server.
+[13:17:11] CONNECTION: 192.168.1.2:50619 [SUCCESS]
+[13:17:11] API_BANNED: 192.168.1.2:50619
+[13:17:11] CLOSING: 192.168.1.2:50619.
+[13:17:11] TIMED OUT: 192.168.1.2:50619.
+[13:17:11] CLOSING: 192.168.1.2:50619.
+[13:17:11] API Version Check // ERROR: 192.168.1.2:50619 Invalid "None" API Version!
+[13:17:11] ["INVALID_VERSION"] -> 192.168.1.2:50619
+[13:17:11] DROPPED: 192.168.1.2:50619. 
+[TRACEBACK]
+[WinError 10038] An operation was attempted on something that is not a socket
+
+[13:18:03] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:18:03] SYSTEM: Initializing server...
+[13:18:03] SYSTEM: Refreshing JSON...
+[13:18:03] SYSTEM: Loading JSON...
+[13:18:03] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:18:03] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:18:03] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:18:03] SYSTEM: Theme Data: []
+[13:18:03] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:18:03] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:18:03] SYSTEM: Server initialized.
+[13:18:03] INFO: Initiated WebSocket Translation Layer.
+[13:18:03] SYSTEM: Initiated Socket Server.
+[13:18:05] CONNECTION: 192.168.1.2:50643 [SUCCESS]
+[13:18:05] API_BANNED: 192.168.1.2:50643
+[13:18:05] CLOSING: 192.168.1.2:50643.
+[13:18:05] CLOSING: 192.168.1.2:50643.
+[13:18:17] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:18:17] SYSTEM: Initializing server...
+[13:18:17] SYSTEM: Refreshing JSON...
+[13:18:17] SYSTEM: Loading JSON...
+[13:18:17] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:18:17] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:18:17] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:18:17] SYSTEM: Theme Data: []
+[13:18:17] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:18:17] SYSTEM: Banned IPs Data: ['192.168.1.2', '192.168.1.3']
+[13:18:17] SYSTEM: Server initialized.
+[13:18:17] INFO: Initiated WebSocket Translation Layer.
+[13:18:17] SYSTEM: Initiated Socket Server.
+[13:18:18] CONNECTION: 192.168.1.2:50653 [SUCCESS]
+[13:18:18] API_BANNED: 192.168.1.2:50653
+[13:18:18] CLOSING: 192.168.1.2:50653.
+[13:22:11] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:22:11] SYSTEM: Initializing server...
+[13:22:11] SYSTEM: Refreshing JSON...
+[13:22:11] SYSTEM: Loading JSON...
+[13:22:11] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:22:11] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:22:11] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:22:11] SYSTEM: Theme Data: []
+[13:22:11] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:22:11] SYSTEM: Banned IPs Data: ['']
+[13:22:11] SYSTEM: Server initialized.
+[13:22:11] INFO: Initiated WebSocket Translation Layer.
+[13:22:11] SYSTEM: Initiated Socket Server.
+[13:22:14] CONNECTION: 192.168.1.2:50682 [SUCCESS]
+[13:22:14] DROPPED: 192.168.1.2:50682. 
+[TRACEBACK]
+list.remove(x): x not in list
+
+[13:23:05] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:23:05] SYSTEM: Initializing server...
+[13:23:05] SYSTEM: Refreshing JSON...
+[13:23:05] SYSTEM: Loading JSON...
+[13:23:05] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:23:05] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:23:05] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:23:05] SYSTEM: Theme Data: []
+[13:23:05] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:23:05] SYSTEM: Banned IPs Data: ['']
+[13:23:05] SYSTEM: Server initialized.
+[13:23:05] INFO: Initiated WebSocket Translation Layer.
+[13:23:05] SYSTEM: Initiated Socket Server.
+[13:23:07] CONNECTION: 192.168.1.2:50703 [SUCCESS]
+[13:23:07] API Version Check // [OK] 192.168.1.2:50703@API_3.0
+[13:23:07] [OK] -> 192.168.1.2:50703
+[13:23:07] REQUEST: ['GET'] from 192.168.1.2:50703.
+[13:23:07] [SUCCESS] "Data_Server" -> 192.168.1.2:50703
+[13:23:07] DROPPED: 192.168.1.2:50703. 
+[TRACEBACK]
+list.remove(x): x not in list
+
+[13:23:36] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:23:36] SYSTEM: Initializing server...
+[13:23:36] SYSTEM: Refreshing JSON...
+[13:23:36] SYSTEM: Loading JSON...
+[13:23:36] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:23:36] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:23:36] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:23:36] SYSTEM: Theme Data: []
+[13:23:36] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:23:36] SYSTEM: Banned IPs Data: ['']
+[13:23:36] SYSTEM: Server initialized.
+[13:23:36] INFO: Initiated WebSocket Translation Layer.
+[13:23:36] SYSTEM: Initiated Socket Server.
+[13:23:37] CONNECTION: 192.168.1.2:50711 [SUCCESS]
+[13:23:37] API Version Check // [OK] 192.168.1.2:50711@API_3.0
+[13:23:37] [OK] -> 192.168.1.2:50711
+[13:23:37] REQUEST: ['GET'] from 192.168.1.2:50711.
+[13:23:37] [SUCCESS] "Data_Server" -> 192.168.1.2:50711
+[13:23:37] DROPPED: 192.168.1.2:50711. 
+[TRACEBACK]
+list.remove(x): x not in list
+
+[13:24:17] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:24:17] SYSTEM: Initializing server...
+[13:24:17] SYSTEM: Refreshing JSON...
+[13:24:17] SYSTEM: Loading JSON...
+[13:24:17] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:24:17] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:24:17] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:24:17] SYSTEM: Theme Data: []
+[13:24:17] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:24:17] SYSTEM: Banned IPs Data: ['']
+[13:24:17] SYSTEM: Server initialized.
+[13:24:17] INFO: Initiated WebSocket Translation Layer.
+[13:24:17] SYSTEM: Initiated Socket Server.
+[13:24:18] CONNECTION: 192.168.1.2:50726 [SUCCESS]
+[13:24:18] API Version Check // [OK] 192.168.1.2:50726@API_3.0
+[13:24:18] [OK] -> 192.168.1.2:50726
+[13:24:18] REQUEST: ['GET'] from 192.168.1.2:50726.
+[13:24:18] [SUCCESS] "Data_Server" -> 192.168.1.2:50726
+[13:24:18] DROPPED: 192.168.1.2:50726. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:27:27] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:27:27] SYSTEM: Initializing server...
+[13:27:27] SYSTEM: Refreshing JSON...
+[13:27:27] SYSTEM: Loading JSON...
+[13:27:27] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:27:27] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:27:27] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:27:27] SYSTEM: Theme Data: []
+[13:27:27] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:27:27] SYSTEM: Banned IPs Data: ['']
+[13:27:27] SYSTEM: Server initialized.
+[13:27:27] INFO: Initiated WebSocket Translation Layer.
+[13:27:27] SYSTEM: Initiated Socket Server.
+[13:27:29] CONNECTION: 192.168.1.2:50764 [SUCCESS]
+[13:27:29] API Version Check // [OK] 192.168.1.2:50764@API_3.0
+[13:27:29] [OK] -> 192.168.1.2:50764
+[13:27:29] REQUEST: ['GET'] from 192.168.1.2:50764.
+[13:27:29] [SUCCESS] "Data_Server" -> 192.168.1.2:50764
+[13:27:29] DROPPED: 192.168.1.2:50764. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:28:34] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:28:34] SYSTEM: Initializing server...
+[13:28:34] SYSTEM: Refreshing JSON...
+[13:28:34] SYSTEM: Loading JSON...
+[13:28:34] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:28:34] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:28:34] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:28:34] SYSTEM: Theme Data: []
+[13:28:34] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:28:34] SYSTEM: Banned IPs Data: ['']
+[13:28:34] SYSTEM: Server initialized.
+[13:28:34] INFO: Initiated WebSocket Translation Layer.
+[13:28:34] SYSTEM: Initiated Socket Server.
+[13:28:35] CONNECTION: 192.168.1.2:50789 [SUCCESS]
+[13:28:35] API Version Check // [OK] 192.168.1.2:50789@API_3.0
+[13:28:35] [OK] -> 192.168.1.2:50789
+[13:28:35] REQUEST: ['GET'] from 192.168.1.2:50789.
+[13:28:35] [SUCCESS] "Data_Server" -> 192.168.1.2:50789
+[13:28:35] DROPPED: 192.168.1.2:50789. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:28:42] CONNECTION: 192.168.1.2:50794 [SUCCESS]
+[13:28:42] ALREADY_CONNECTED: 192.168.1.2:50794
+[13:28:42] DROPPED: 192.168.1.2:50794. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:29:00] CONNECTION: 192.168.1.2:50799 [SUCCESS]
+[13:29:00] ALREADY_CONNECTED: 192.168.1.2:50799
+[13:29:00] DROPPED: 192.168.1.2:50799. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:30:06] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:30:06] SYSTEM: Initializing server...
+[13:30:06] SYSTEM: Refreshing JSON...
+[13:30:06] SYSTEM: Loading JSON...
+[13:30:06] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:30:06] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:30:06] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:30:06] SYSTEM: Theme Data: []
+[13:30:06] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:30:06] SYSTEM: Banned IPs Data: ['']
+[13:30:06] SYSTEM: Server initialized.
+[13:30:06] INFO: Initiated WebSocket Translation Layer.
+[13:30:06] SYSTEM: Initiated Socket Server.
+[13:30:07] CONNECTION: 192.168.1.2:50809 [SUCCESS]
+[13:30:07] API Version Check // [OK] 192.168.1.2:50809@API_3.0
+[13:30:07] [OK] -> 192.168.1.2:50809
+[13:30:07] REQUEST: ['GET'] from 192.168.1.2:50809.
+[13:30:07] [SUCCESS] "Data_Server" -> 192.168.1.2:50809
+[13:30:07] DROPPED: 192.168.1.2:50809. 
+[TRACEBACK]
+cannot access local variable 'Active_Connections' where it is not associated with a value
+
+[13:45:32] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:45:32] SYSTEM: Initializing server...
+[13:45:32] SYSTEM: Refreshing JSON...
+[13:45:32] SYSTEM: Loading JSON...
+[13:46:03] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:46:03] SYSTEM: Initializing server...
+[13:46:03] SYSTEM: Refreshing JSON...
+[13:46:03] SYSTEM: Loading JSON...
+[13:46:15] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:46:15] SYSTEM: Initializing server...
+[13:46:15] SYSTEM: Refreshing JSON...
+[13:46:15] SYSTEM: Loading JSON...
+[13:46:34] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:46:34] SYSTEM: Initializing server...
+[13:46:34] SYSTEM: Refreshing JSON...
+[13:46:34] SYSTEM: Loading JSON...
+[13:46:34] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:46:34] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:46:34] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:46:34] SYSTEM: Theme Data: []
+[13:46:34] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:46:34] SYSTEM: Splash Text Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:46:34] SYSTEM: Banned IPs Data: ['']
+[13:46:34] SYSTEM: Server initialized.
+[13:46:34] INFO: Initiated WebSocket Translation Layer.
+[13:46:34] SYSTEM: Initiated Socket Server.
+[13:46:51] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:46:51] SYSTEM: Initializing server...
+[13:46:51] SYSTEM: Refreshing JSON...
+[13:46:51] SYSTEM: Loading JSON...
+[13:46:51] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:46:51] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:46:51] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:46:51] SYSTEM: Theme Data: []
+[13:46:51] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:46:51] SYSTEM: Banned IPs Data: ['']
+[13:46:51] SYSTEM: Splash Text Data: ['Something Wicked this way comes.\n', 'Oh look, a splash text!\n', 'Now built thanks to the Flashstore API!\n', 'Still without Javascript!\\n...oh wait now there is.\n', 'The Discount Replugged Store™️\\n...With more features\n', 'now with more yaes than mikos!\n', 'Made with <3 by SiriusBYT\n', '>Access Denied\\n>:(\n', "Powered by Sirius' broken Python code!\n", 'Only took 6 months to have working search bars!\n', 'we killed the replugged forg\n', 'subscribe to siriusbyt\n', 'shoutouts to simpleflips\n', 'East_Arctica is a cool guy.\\nLiterally.\n', 'Atacantul is an attacker.\\nLiterally.']
+[13:46:51] SYSTEM: Server initialized.
+[13:46:51] INFO: Initiated WebSocket Translation Layer.
+[13:46:51] SYSTEM: Initiated Socket Server.
+[13:48:36] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:48:36] SYSTEM: Initializing server...
+[13:48:36] SYSTEM: Refreshing JSON...
+[13:48:36] SYSTEM: Loading JSON...
+[13:48:49] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:48:49] SYSTEM: Initializing server...
+[13:48:49] SYSTEM: Refreshing JSON...
+[13:48:49] SYSTEM: Loading JSON...
+[13:48:49] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:48:49] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:48:49] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:48:49] SYSTEM: Theme Data: []
+[13:48:49] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:48:49] SYSTEM: Banned IPs Data: ['']
+[13:48:49] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[13:48:49] SYSTEM: Server initialized.
+[13:48:49] INFO: Initiated WebSocket Translation Layer.
+[13:48:49] SYSTEM: Initiated Socket Server.
+[13:49:19] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:49:19] SYSTEM: Initializing server...
+[13:49:19] SYSTEM: Refreshing JSON...
+[13:49:19] SYSTEM: Loading JSON...
+[13:49:19] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:49:19] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:49:19] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:49:19] SYSTEM: Theme Data: []
+[13:49:19] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:49:19] SYSTEM: Banned IPs Data: ['']
+[13:49:19] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[13:49:19] SYSTEM: Server initialized.
+[13:49:19] INFO: Initiated WebSocket Translation Layer.
+[13:49:19] SYSTEM: Initiated Socket Server.
+[13:49:21] CONNECTION: 192.168.1.2:51051 [SUCCESS]
+[13:49:21] API Version Check // [OK] 192.168.1.2:51051@API_3.0
+[13:49:21] [OK] -> 192.168.1.2:51051
+[13:49:21] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51051.
+[13:49:21] DROPPED: 192.168.1.2:51051. 
+[TRACEBACK]
+Random.randint() missing 1 required positional argument: 'b'
+
+[13:50:02] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:50:02] SYSTEM: Initializing server...
+[13:50:02] SYSTEM: Refreshing JSON...
+[13:50:02] SYSTEM: Loading JSON...
+[13:50:02] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:50:02] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:50:02] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:50:02] SYSTEM: Theme Data: []
+[13:50:02] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:50:02] SYSTEM: Banned IPs Data: ['']
+[13:50:02] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[13:50:02] SYSTEM: Server initialized.
+[13:50:02] INFO: Initiated WebSocket Translation Layer.
+[13:50:02] SYSTEM: Initiated Socket Server.
+[13:50:03] CONNECTION: 192.168.1.2:51066 [SUCCESS]
+[13:50:03] API Version Check // [OK] 192.168.1.2:51066@API_3.0
+[13:50:03] [OK] -> 192.168.1.2:51066
+[13:50:03] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51066.
+[13:50:03] DROPPED: 192.168.1.2:51066. 
+[TRACEBACK]
+Random.randint() missing 1 required positional argument: 'b'
+
+[13:50:47] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[13:50:47] SYSTEM: Initializing server...
+[13:50:47] SYSTEM: Refreshing JSON...
+[13:50:47] SYSTEM: Loading JSON...
+[13:50:47] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}], 'themes': [], 'users': ['siriusbyt', 'eastarctica', 'tharki-god']}
+[13:50:47] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[13:50:47] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}, {'eastarctica': []}, {'tharki-god': []}]
+[13:50:47] SYSTEM: Theme Data: []
+[13:50:47] SYSTEM: User Data: ['siriusbyt', 'eastarctica', 'tharki-god']
+[13:50:47] SYSTEM: Banned IPs Data: ['']
+[13:50:47] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[13:50:47] SYSTEM: Server initialized.
+[13:50:47] INFO: Initiated WebSocket Translation Layer.
+[13:50:47] SYSTEM: Initiated Socket Server.
+[13:50:48] CONNECTION: 192.168.1.2:51075 [SUCCESS]
+[13:50:48] API Version Check // [OK] 192.168.1.2:51075@API_3.0
+[13:50:48] [OK] -> 192.168.1.2:51075
+[13:50:48] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51075.
+[13:50:48] [SUCCESS] "East_Arctica is a cool guy.
+Literally." -> 192.168.1.2:51075.
+[13:50:48] CLOSING: 192.168.1.2:51075.
+[13:50:53] CONNECTION: 192.168.1.2:51079 [SUCCESS]
+[13:50:53] API Version Check // [OK] 192.168.1.2:51079@API_3.0
+[13:50:53] [OK] -> 192.168.1.2:51079
+[13:50:53] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51079.
+[13:50:53] [SUCCESS] "subscribe to siriusbyt" -> 192.168.1.2:51079.
+[13:50:53] CLOSING: 192.168.1.2:51079.
+[13:50:56] CONNECTION: 192.168.1.2:51083 [SUCCESS]
+[13:50:56] API Version Check // [OK] 192.168.1.2:51083@API_3.0
+[13:50:56] [OK] -> 192.168.1.2:51083
+[13:50:56] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51083.
+[13:50:56] [SUCCESS] "Oh look, a splash text!" -> 192.168.1.2:51083.
+[13:50:56] CLOSING: 192.168.1.2:51083.
+[13:51:23] CONNECTION: 192.168.1.2:51089 [SUCCESS]
+[13:51:23] API Version Check // [OK] 192.168.1.2:51089@API_3.0
+[13:51:23] [OK] -> 192.168.1.2:51089
+[13:51:23] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51089.
+[13:51:23] [SUCCESS] "shoutouts to simpleflips" -> 192.168.1.2:51089.
+[13:51:23] CLOSING: 192.168.1.2:51089.
+[13:51:30] CONNECTION: 192.168.1.2:51092 [SUCCESS]
+[13:51:30] API Version Check // [OK] 192.168.1.2:51092@API_3.0
+[13:51:30] [OK] -> 192.168.1.2:51092
+[13:51:30] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51092.
+[13:51:30] [SUCCESS] "Still without Javascript!
+...oh wait now there is." -> 192.168.1.2:51092.
+[13:51:30] CLOSING: 192.168.1.2:51092.
+[13:51:35] CONNECTION: 192.168.1.2:51095 [SUCCESS]
+[13:51:35] API Version Check // [OK] 192.168.1.2:51095@API_3.0
+[13:51:35] [OK] -> 192.168.1.2:51095
+[13:51:35] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51095.
+[13:51:35] [SUCCESS] "The Discount Replugged Store™️
+...With more features" -> 192.168.1.2:51095.
+[13:51:35] CLOSING: 192.168.1.2:51095.
+[13:51:40] CONNECTION: 192.168.1.2:51098 [SUCCESS]
+[13:51:40] API Version Check // [OK] 192.168.1.2:51098@API_3.0
+[13:51:40] [OK] -> 192.168.1.2:51098
+[13:51:40] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51098.
+[13:51:40] [SUCCESS] ">Access Denied
+>:(" -> 192.168.1.2:51098.
+[13:51:40] CLOSING: 192.168.1.2:51098.
+[13:51:42] CONNECTION: 192.168.1.2:51101 [SUCCESS]
+[13:51:42] API Version Check // [OK] 192.168.1.2:51101@API_3.0
+[13:51:42] [OK] -> 192.168.1.2:51101
+[13:51:42] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51101.
+[13:51:42] [SUCCESS] "now with more yaes than mikos!" -> 192.168.1.2:51101.
+[13:51:42] CLOSING: 192.168.1.2:51101.
+[13:51:46] CONNECTION: 192.168.1.2:51104 [SUCCESS]
+[13:51:46] API Version Check // [OK] 192.168.1.2:51104@API_3.0
+[13:51:46] [OK] -> 192.168.1.2:51104
+[13:51:46] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51104.
+[13:51:46] [SUCCESS] "subscribe to siriusbyt" -> 192.168.1.2:51104.
+[13:51:46] CLOSING: 192.168.1.2:51104.
+[13:51:52] CONNECTION: 192.168.1.2:51109 [SUCCESS]
+[13:51:52] API Version Check // [OK] 192.168.1.2:51109@API_3.0
+[13:51:52] [OK] -> 192.168.1.2:51109
+[13:51:52] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51109.
+[13:51:52] [SUCCESS] "Still without Javascript!
+...oh wait now there is." -> 192.168.1.2:51109.
+[13:51:52] CLOSING: 192.168.1.2:51109.
+[13:52:02] CONNECTION: 192.168.1.2:51114 [SUCCESS]
+[13:52:02] API Version Check // [OK] 192.168.1.2:51114@API_3.0
+[13:52:02] [OK] -> 192.168.1.2:51114
+[13:52:02] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51114.
+[13:52:02] [SUCCESS] "East_Arctica is a cool guy.
+Literally." -> 192.168.1.2:51114.
+[13:52:02] CLOSING: 192.168.1.2:51114.
+[13:52:06] CONNECTION: 192.168.1.2:51117 [SUCCESS]
+[13:52:06] API Version Check // [OK] 192.168.1.2:51117@API_3.0
+[13:52:06] [OK] -> 192.168.1.2:51117
+[13:52:06] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51117.
+[13:52:06] [SUCCESS] "Made with <3 by SiriusBYT" -> 192.168.1.2:51117.
+[13:52:06] CLOSING: 192.168.1.2:51117.
+[13:52:18] CONNECTION: 192.168.1.2:51121 [SUCCESS]
+[13:52:18] API Version Check // [OK] 192.168.1.2:51121@API_3.0
+[13:52:18] [OK] -> 192.168.1.2:51121
+[13:52:18] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51121.
+[13:52:18] [SUCCESS] "East_Arctica is a cool guy.
+Literally." -> 192.168.1.2:51121.
+[13:52:18] CLOSING: 192.168.1.2:51121.
+[13:52:27] CONNECTION: 192.168.1.2:51125 [SUCCESS]
+[13:52:27] API Version Check // [OK] 192.168.1.2:51125@API_3.0
+[13:52:27] [OK] -> 192.168.1.2:51125
+[13:52:27] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51125.
+[13:52:27] [SUCCESS] "Now built thanks to the Flashstore API!" -> 192.168.1.2:51125.
+[13:52:27] CLOSING: 192.168.1.2:51125.
+[13:52:30] CONNECTION: 192.168.1.2:51128 [SUCCESS]
+[13:52:30] API Version Check // [OK] 192.168.1.2:51128@API_3.0
+[13:52:30] [OK] -> 192.168.1.2:51128
+[13:52:30] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51128.
+[13:52:30] [SUCCESS] "East_Arctica is a cool guy.
+Literally." -> 192.168.1.2:51128.
+[13:52:30] CLOSING: 192.168.1.2:51128.
+[13:52:31] CONNECTION: 192.168.1.2:51131 [SUCCESS]
+[13:52:31] API Version Check // [OK] 192.168.1.2:51131@API_3.0
+[13:52:31] [OK] -> 192.168.1.2:51131
+[13:52:31] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51131.
+[13:52:31] [SUCCESS] "subscribe to siriusbyt" -> 192.168.1.2:51131.
+[13:52:31] CLOSING: 192.168.1.2:51131.
+[13:52:33] CONNECTION: 192.168.1.2:51134 [SUCCESS]
+[13:52:33] API Version Check // [OK] 192.168.1.2:51134@API_3.0
+[13:52:33] [OK] -> 192.168.1.2:51134
+[13:52:33] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51134.
+[13:52:33] [SUCCESS] "Oh look, a splash text!" -> 192.168.1.2:51134.
+[13:52:33] CLOSING: 192.168.1.2:51134.
+[13:52:34] CONNECTION: 192.168.1.2:51137 [SUCCESS]
+[13:52:34] API Version Check // [OK] 192.168.1.2:51137@API_3.0
+[13:52:34] [OK] -> 192.168.1.2:51137
+[13:52:34] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51137.
+[13:52:34] [SUCCESS] "subscribe to siriusbyt" -> 192.168.1.2:51137.
+[13:52:34] CLOSING: 192.168.1.2:51137.
+[13:52:35] CONNECTION: 192.168.1.2:51140 [SUCCESS]
+[13:52:35] API Version Check // [OK] 192.168.1.2:51140@API_3.0
+[13:52:35] [OK] -> 192.168.1.2:51140
+[13:52:35] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51140.
+[13:52:35] [SUCCESS] "Now built thanks to the Flashstore API!" -> 192.168.1.2:51140.
+[13:52:35] CLOSING: 192.168.1.2:51140.
+[13:52:35] CONNECTION: 192.168.1.2:51143 [SUCCESS]
+[13:52:35] API Version Check // [OK] 192.168.1.2:51143@API_3.0
+[13:52:35] [OK] -> 192.168.1.2:51143
+[13:52:35] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51143.
+[13:52:35] [SUCCESS] "we killed the replugged forg" -> 192.168.1.2:51143.
+[13:52:35] CLOSING: 192.168.1.2:51143.
+[13:52:36] CONNECTION: 192.168.1.2:51146 [SUCCESS]
+[13:52:36] API Version Check // [OK] 192.168.1.2:51146@API_3.0
+[13:52:36] [OK] -> 192.168.1.2:51146
+[13:52:36] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51146.
+[13:52:36] [SUCCESS] "Powered by Sirius' broken Python code!" -> 192.168.1.2:51146.
+[13:52:36] CLOSING: 192.168.1.2:51146.
+[13:52:36] CONNECTION: 192.168.1.2:51149 [SUCCESS]
+[13:52:36] API Version Check // [OK] 192.168.1.2:51149@API_3.0
+[13:52:36] [OK] -> 192.168.1.2:51149
+[13:52:36] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51149.
+[13:52:36] [SUCCESS] "Still without Javascript!
+...oh wait now there is." -> 192.168.1.2:51149.
+[13:52:36] CLOSING: 192.168.1.2:51149.
+[13:52:37] CONNECTION: 192.168.1.2:51152 [SUCCESS]
+[13:52:37] API Version Check // [OK] 192.168.1.2:51152@API_3.0
+[13:52:37] [OK] -> 192.168.1.2:51152
+[13:52:37] REQUEST: ['GET', 'SPLASH_TEXT'] from 192.168.1.2:51152.
+[13:52:37] [SUCCESS] "Now built thanks to the Flashstore API!" -> 192.168.1.2:51152.
+[13:52:37] CLOSING: 192.168.1.2:51152.
+[13:55:22] SUCCESS: New WebSocket connection from "127.0.0.1:51180".
+[13:55:22] API Version Check // [OK] 127.0.0.1:51180@API_3.0
+[13:55:22] [OK] -> 127.0.0.1:51180
+[13:55:22] REQUEST: ['ADD_STAT'] from 127.0.0.1:51180.
+[13:55:22] MISSING_ARGUMENTS: ['ADD_STAT'] from 127.0.0.1:51180
+[13:55:22] CLOSING: 127.0.0.1:51180.
+[13:55:22] CLOSING: 127.0.0.1:51180.
+[13:55:26] SUCCESS: New WebSocket connection from "127.0.0.1:51181".
+[13:55:26] API Version Check // [OK] 127.0.0.1:51181@API_3.0
+[13:55:26] [OK] -> 127.0.0.1:51181
+[13:55:26] REQUEST: ['ADD_STAT', 'VIEW'] from 127.0.0.1:51181.
+[13:55:26] MISSING_ARGUMENTS: ['ADD_STAT', 'VIEW'] from 127.0.0.1:51181
+[13:55:26] CLOSING: 127.0.0.1:51181.
+[13:55:26] CLOSING: 127.0.0.1:51181.
+[13:55:31] SUCCESS: New WebSocket connection from "127.0.0.1:51182".
+[13:55:31] API Version Check // [OK] 127.0.0.1:51182@API_3.0
+[13:55:31] [OK] -> 127.0.0.1:51182
+[13:55:31] REQUEST: ['ADD_STAT', 'VIEW', 'hi'] from 127.0.0.1:51182.
+[13:55:31] CLOSING: 127.0.0.1:51182.
+[14:41:37] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[14:41:37] SYSTEM: Initializing server...
+[14:41:37] SYSTEM: Refreshing JSON...
+[14:41:38] SYSTEM: Loading JSON...
+[14:41:38] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:41:38] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:41:38] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:41:38] SYSTEM: Theme Data: []
+[14:41:38] SYSTEM: User Data: ['siriusbyt']
+[14:41:38] SYSTEM: Banned IPs Data: ['']
+[14:41:38] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:41:38] SYSTEM: Server initialized.
+[14:41:38] SYSTEM: Initiated Socket Server.
+[14:41:38] INFO: Initiated WebSocket Translation Layer.
+[14:50:03] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[14:50:03] SYSTEM: Initializing server...
+[14:50:03] SYSTEM: Refreshing JSON...
+[14:50:03] SYSTEM: Loading JSON...
+[14:50:03] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:50:03] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:50:03] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:50:03] SYSTEM: Theme Data: []
+[14:50:03] SYSTEM: User Data: ['siriusbyt']
+[14:50:03] SYSTEM: Banned IPs Data: ['']
+[14:50:03] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:50:03] SYSTEM: Views Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:50:03] SYSTEM: Installs Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:50:03] SYSTEM: Server initialized.
+[14:50:03] SYSTEM: Initiated Socket Server.
+[14:50:03] INFO: Initiated WebSocket Translation Layer.
+[14:50:35] CONNECTION: 192.168.1.2:51854 [SUCCESS]
+[14:50:35] API Version Check // [OK] 192.168.1.2:51854@API_3.0
+[14:50:35] [OK] -> 192.168.1.2:51854
+[14:50:35] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51854.
+[14:50:35] [OK] -> 192.168.1.2:51854
+[14:50:35] CLOSING: 192.168.1.2:51854.
+[14:50:38] CONNECTION: 192.168.1.2:51857 [SUCCESS]
+[14:50:38] API Version Check // [OK] 192.168.1.2:51857@API_3.0
+[14:50:38] [OK] -> 192.168.1.2:51857
+[14:50:38] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51857.
+[14:50:38] ALREADY_DONE: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51857
+[14:50:38] CLOSING: 192.168.1.2:51857.
+[14:52:15] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[14:52:15] SYSTEM: Initializing server...
+[14:52:15] SYSTEM: Refreshing JSON...
+[14:52:16] SYSTEM: Loading JSON...
+[14:52:16] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:52:16] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:52:16] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:52:16] SYSTEM: Theme Data: []
+[14:52:16] SYSTEM: User Data: ['siriusbyt']
+[14:52:16] SYSTEM: Banned IPs Data: ['']
+[14:52:16] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:52:16] SYSTEM: Views Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:52:16] SYSTEM: Installs Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:52:16] SYSTEM: Server initialized.
+[14:52:16] SYSTEM: Initiated Socket Server.
+[14:52:16] INFO: Initiated WebSocket Translation Layer.
+[14:52:17] CONNECTION: 192.168.1.2:51892 [SUCCESS]
+[14:52:17] API Version Check // [OK] 192.168.1.2:51892@API_3.0
+[14:52:17] [OK] -> 192.168.1.2:51892
+[14:52:17] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51892.
+[14:52:17] [OK] -> 192.168.1.2:51892
+[14:52:17] DROPPED: 192.168.1.2:51892. 
+[TRACEBACK]
+dump() missing 1 required positional argument: 'fp'
+
+[14:52:39] CONNECTION: 192.168.1.2:51897 [SUCCESS]
+[14:52:39] API Version Check // [OK] 192.168.1.2:51897@API_3.0
+[14:52:39] [OK] -> 192.168.1.2:51897
+[14:52:39] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51897.
+[14:52:39] ALREADY_DONE: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51897
+[14:52:39] CLOSING: 192.168.1.2:51897.
+[14:54:05] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[14:54:05] SYSTEM: Initializing server...
+[14:54:05] SYSTEM: Refreshing JSON...
+[14:54:06] SYSTEM: Loading JSON...
+[14:54:06] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:54:06] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:54:06] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:54:06] SYSTEM: Theme Data: []
+[14:54:06] SYSTEM: User Data: ['siriusbyt']
+[14:54:06] SYSTEM: Banned IPs Data: ['']
+[14:54:06] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:54:06] SYSTEM: Views Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:54:06] SYSTEM: Installs Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:54:06] SYSTEM: Server initialized.
+[14:54:06] SYSTEM: Initiated Socket Server.
+[14:54:06] INFO: Initiated WebSocket Translation Layer.
+[14:54:08] CONNECTION: 192.168.1.2:51948 [SUCCESS]
+[14:54:08] API Version Check // [OK] 192.168.1.2:51948@API_3.0
+[14:54:08] [OK] -> 192.168.1.2:51948
+[14:54:08] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51948.
+[14:54:08] [OK] -> 192.168.1.2:51948
+[14:54:08] DROPPED: 192.168.1.2:51948. 
+[TRACEBACK]
+dump() missing 1 required positional argument: 'fp'
+
+[14:58:09] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[14:58:09] SYSTEM: Initializing server...
+[14:58:09] SYSTEM: Refreshing JSON...
+[14:58:10] SYSTEM: Loading JSON...
+[14:58:10] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:58:10] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:58:10] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:58:10] SYSTEM: Theme Data: []
+[14:58:10] SYSTEM: User Data: ['siriusbyt']
+[14:58:10] SYSTEM: Banned IPs Data: ['']
+[14:58:10] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:58:10] SYSTEM: Views Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:58:10] SYSTEM: Installs Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:58:10] SYSTEM: Server initialized.
+[14:58:10] SYSTEM: Initiated Socket Server.
+[14:58:10] INFO: Initiated WebSocket Translation Layer.
+[14:58:16] CONNECTION: 192.168.1.2:51997 [SUCCESS]
+[14:58:16] API Version Check // [OK] 192.168.1.2:51997@API_3.0
+[14:58:16] [OK] -> 192.168.1.2:51997
+[14:58:16] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:51997.
+[14:58:16] DROPPED: 192.168.1.2:51997. 
+[TRACEBACK]
+dump() missing 1 required positional argument: 'fp'
+
+[14:58:57] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[14:58:57] SYSTEM: Initializing server...
+[14:58:57] SYSTEM: Refreshing JSON...
+[14:58:58] SYSTEM: Loading JSON...
+[14:58:58] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[14:58:58] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[14:58:58] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[14:58:58] SYSTEM: Theme Data: []
+[14:58:58] SYSTEM: User Data: ['siriusbyt']
+[14:58:58] SYSTEM: Banned IPs Data: ['']
+[14:58:58] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[14:58:58] SYSTEM: Views Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:58:58] SYSTEM: Installs Data: {'btw.bitslayn.discordicons': [], 'com.arshiaaghaei.ExtraIndentRemover': [], 'com.cafeed28.NitroSpoof': [], 'com.clearvision.v6': [], 'com.draculatheme.dracula-replugged': [], 'com.sirio-network.flashcord-zoom': [], 'com.twoexem.delta.MMM': [], 'dev.LuckFire.AMOLEDCord': [], 'dev.LuckFire.BubbleBar': [], 'dev.LuckFire.ModernIndicators': [], 'dev.Teltta.AnonymiseFileNames': [], 'dev.Teltta.FabledTheme': [], 'dev.WolfPlugs.UserPFP': [], 'dev.albertp.CanaryLinks': [], 'dev.albertp.ChannelTyping': [], 'dev.albertp.CompactDiscord': [], 'dev.albertp.MemberCount': [], 'dev.albertp.MentionCacheFix': [], 'dev.albertp.NoNitroUpsell': [], 'dev.albertp.RoleColorEverywhere': [], 'dev.albertp.RoleDividers': [], 'dev.albertp.ToneIndicators': [], 'dev.albertp.TwemojiEverywhere': [], 'dev.alyxia.emojiBlacklist': [], 'dev.alyxia.greentext': [], 'dev.alyxia.noInlineLinks': [], 'dev.alyxia.removeChannelEmojis': [], 'dev.catalyst.VCTextNotif': [], 'dev.censoredosu.supabase-amoled': [], 'dev.eboi.blurnsfw': [], 'dev.eboi.customrpc': [], 'dev.eboi.githubindiscord': [], 'dev.eboi.linkchannels': [], 'dev.fedeilleone.EditMessageAttachments': [], 'dev.fedeilleone.JumpToFirstMessage': [], 'dev.fedeilleone.ReadAllButton': [], 'dev.fluzzeon.OpenInApp': [], 'dev.fooooooooooooooo.supabase': [], 'dev.jj.transparent': [], 'dev.kaan.Timezones': [], 'dev.kaan.identitytag': [], 'dev.kingfish.BadgesEverywhere': [], 'dev.kingfish.BetterCodeblocks': [], 'dev.kingfish.CopyRaw': [], 'dev.kingfish.DoubleClickVC': [], 'dev.kingfish.EditUtils': [], 'dev.kingfish.EmojiUtils': [], 'dev.kingfish.InvisibleTyping': [], 'dev.kingfish.MoreInvites': [], 'dev.lisekilis.RepluggedEdited': [], 'dev.markchan0225.RounedDiscord': [], 'dev.obscure.EmojiPicker': [], 'dev.oirnoir.RemoveDiscordMosaic': [], 'dev.oirnoir.bbwwme': [], 'dev.oirnoir.onekoanimation': [], 'dev.penguinspy.ppl-moe': [], 'dev.penguinspy.pronoundb': [], 'dev.replugged.RevertRebrand': [], 'dev.sammcheese.InvisibleChat': [], 'dev.sammcheese.ReactionNoise': [], 'dev.sammcheese.RepluggedPGP': [], 'dev.shadow.quicktoggle': [], 'dev.shadowing.tags': [], 'dev.tharki.Address': [], 'dev.tharki.DefaultServerSettings': [], 'dev.tharki.DevTools': [], 'dev.tharki.FluentStatusIcons': [], 'dev.tharki.FoldersRedesigned': [], 'dev.tharki.HideDisabledEmojis': [], 'dev.tharki.LegalDiscordBypasses': [], 'dev.tharki.MessageHider': [], 'dev.tharki.MoreMessageConfirmations': [], 'dev.tharki.ReGameActivityToggle': [], 'dev.tharki.ReJoinVC': [], 'dev.tharki.ReUSRBG': [], 'dev.tharki.ShowHiddenChannels': [], 'dev.tharki.ShowNames': [], 'dev.tharki.Token': [], 'dev.tharki.VCDuration': [], 'dev.tharki.VolumeManipulator': [], 'dev.wolfplugs.HolyNotes': [], 'dev.wolfplugs.globalbadges': [], 'eu.shadygoat.CuteAnimeBoys': [], 'eu.shadygoat.DeadnameFixer': [], 'eu.shadygoat.GithubDark': [], 'eu.shadygoat.Latex': [], 'eu.shadygoat.TypingUtils': [], 'eu.shadygoat.cutecord': [], 'extended_chat_effects': [], 'gq.sappy.SpotiCord': [], 'infinite_chat_effects': [], 'io.github.puyodead1.MonstercatRP': [], 'io.github.ruintd.LastFMRP': [], 'lib.evelyn.Magnificent': [], 'lib.evelyn.NoSpotifyPause': [], 'lib.evelyn.SpotifyListenAlong': [], 'lib.evelyn.SpotifyModal': [], 'lib.evelyn.Translator': [], 'me.gurkz.LMGTFY': [], 'me.puyodead1.NoReplyMention': [], 'me.puyodead1.PlatformIndicators': [], 'me.puyodead1.StaffTags': [], 'me.puyodead1.VoiceEvents': [], 'net.saltssaumure.CRT': [], 'net.saltssaumure.EmojiReplace-Apple': [], 'net.saltssaumure.EmojiReplace-Facebook': [], 'net.saltssaumure.EmojiReplace-Fluent3D': [], 'net.saltssaumure.EmojiReplace-Google': [], 'net.saltssaumure.EmojiReplace-JoyPixels': [], 'net.saltssaumure.EmojiReplace-Microsoft': [], 'net.saltssaumure.EmojiReplace-OpenMoji': [], 'net.saltssaumure.EmojiReplace-Samsung': [], 'net.saltssaumure.EmojiReplace-Toss': [], 'net.saltssaumure.EmojiReplace-WhatsApp': [], 'net.saltssaumure.Espresso': [], 'net.saltssaumure.Exponent': [], 'net.saltssaumure.LegacyChatty': [], 'net.saltssaumure.MinimalAddonCards': [], 'net.saltssaumure.NineX': [], 'net.saltssaumure.Pesterchum': [], 'net.saltssaumure.Squared': [], 'net.saltssaumure.Synthesis': [], 'net.saltssaumure.Tritone': [], 'net.saltssaumure.piOS': [], 'net.sammcheese.messageLogger': [], 'nyria.comfy': [], 'nyria.couve': [], 'nyria.discolored': [], 'nyria.lilypichu': [], 'org.mairimashita.Catppuccin.Frappe': [], 'org.mairimashita.Catppuccin.Latte': [], 'org.mairimashita.Catppuccin.Macchiato': [], 'org.mairimashita.Catppuccin.Mocha': [], 'owo.fres.quickreply': [], 'themehooker': [], 'win.quickvids.Embeds': [], 'xyz.griefmodz.ReplaceGoogleSearch': [], 'xyz.griefmodz.StatisticCounter': [], 'xyz.noplagi.friendinvites': []}
+[14:58:58] SYSTEM: Server initialized.
+[14:58:58] SYSTEM: Initiated Socket Server.
+[14:58:58] INFO: Initiated WebSocket Translation Layer.
+[14:59:46] CONNECTION: 192.168.1.2:52039 [SUCCESS]
+[14:59:46] API Version Check // [OK] 192.168.1.2:52039@API_3.0
+[14:59:46] [OK] -> 192.168.1.2:52039
+[14:59:46] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52039.
+[14:59:46] DROPPED: 192.168.1.2:52039. 
+[TRACEBACK]
+dump() missing 1 required positional argument: 'fp'
+
+[15:02:57] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:02:57] SYSTEM: Initializing server...
+[15:02:57] SYSTEM: Refreshing JSON...
+[15:02:58] SYSTEM: Loading JSON...
+[15:02:58] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:02:58] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:02:58] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:02:58] SYSTEM: Theme Data: []
+[15:02:58] SYSTEM: User Data: ['siriusbyt']
+[15:02:58] SYSTEM: Banned IPs Data: ['']
+[15:02:58] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:03:15] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:03:15] SYSTEM: Initializing server...
+[15:03:15] SYSTEM: Refreshing JSON...
+[15:03:16] SYSTEM: Loading JSON...
+[15:03:16] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:03:16] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:03:16] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:03:16] SYSTEM: Theme Data: []
+[15:03:16] SYSTEM: User Data: ['siriusbyt']
+[15:03:16] SYSTEM: Banned IPs Data: ['']
+[15:03:16] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:03:29] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:03:29] SYSTEM: Initializing server...
+[15:03:29] SYSTEM: Refreshing JSON...
+[15:03:30] SYSTEM: Loading JSON...
+[15:03:30] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:03:30] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:03:30] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:03:30] SYSTEM: Theme Data: []
+[15:03:30] SYSTEM: User Data: ['siriusbyt']
+[15:03:30] SYSTEM: Banned IPs Data: ['']
+[15:03:30] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:03:30] SYSTEM: Server initialized.
+[15:03:30] SYSTEM: Initiated Socket Server.
+[15:03:30] INFO: Initiated WebSocket Translation Layer.
+[15:03:34] CONNECTION: 192.168.1.2:52093 [SUCCESS]
+[15:03:34] API Version Check // [OK] 192.168.1.2:52093@API_3.0
+[15:03:34] [OK] -> 192.168.1.2:52093
+[15:03:34] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52093.
+[15:03:34] DROPPED: 192.168.1.2:52093. 
+[TRACEBACK]
+dump() missing 1 required positional argument: 'fp'
+
+[15:04:13] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:04:13] SYSTEM: Initializing server...
+[15:04:13] SYSTEM: Refreshing JSON...
+[15:04:14] SYSTEM: Loading JSON...
+[15:04:14] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:04:14] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:04:14] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:04:14] SYSTEM: Theme Data: []
+[15:04:14] SYSTEM: User Data: ['siriusbyt']
+[15:04:14] SYSTEM: Banned IPs Data: ['']
+[15:04:14] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:04:14] SYSTEM: Server initialized.
+[15:04:14] SYSTEM: Initiated Socket Server.
+[15:04:14] INFO: Initiated WebSocket Translation Layer.
+[15:04:14] CONNECTION: 192.168.1.2:52129 [SUCCESS]
+[15:04:14] API Version Check // [OK] 192.168.1.2:52129@API_3.0
+[15:04:14] [OK] -> 192.168.1.2:52129
+[15:04:14] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52129.
+[15:04:14] [OK] -> 192.168.1.2:52129
+[15:04:14] CLOSING: 192.168.1.2:52129.
+[15:05:14] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:05:14] SYSTEM: Initializing server...
+[15:05:14] SYSTEM: Refreshing JSON...
+[15:05:15] SYSTEM: Loading JSON...
+[15:05:15] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:05:15] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:05:15] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:05:15] SYSTEM: Theme Data: []
+[15:05:15] SYSTEM: User Data: ['siriusbyt']
+[15:05:15] SYSTEM: Banned IPs Data: ['']
+[15:05:15] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:05:15] SYSTEM: Server initialized.
+[15:05:15] SYSTEM: Initiated Socket Server.
+[15:05:15] INFO: Initiated WebSocket Translation Layer.
+[15:05:15] CONNECTION: 192.168.1.2:52153 [SUCCESS]
+[15:05:15] API Version Check // [OK] 192.168.1.2:52153@API_3.0
+[15:05:15] [OK] -> 192.168.1.2:52153
+[15:05:15] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52153.
+[15:05:15] [OK] -> 192.168.1.2:52153
+[15:05:15] CLOSING: 192.168.1.2:52153.
+[15:05:21] CONNECTION: 192.168.1.2:52157 [SUCCESS]
+[15:05:21] API Version Check // [OK] 192.168.1.2:52157@API_3.0
+[15:05:21] [OK] -> 192.168.1.2:52157
+[15:05:21] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52157.
+[15:05:21] ALREADY_DONE: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52157
+[15:05:21] CLOSING: 192.168.1.2:52157.
+[15:11:45] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:11:45] SYSTEM: Initializing server...
+[15:11:45] SYSTEM: Refreshing JSON...
+[15:11:46] SYSTEM: Loading JSON...
+[15:11:46] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:11:46] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:11:46] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:11:46] SYSTEM: Theme Data: []
+[15:11:46] SYSTEM: User Data: ['siriusbyt']
+[15:11:46] SYSTEM: Banned IPs Data: ['']
+[15:11:46] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:11:46] SYSTEM: Server initialized.
+[15:11:46] SYSTEM: Initiated Socket Server.
+[15:11:46] INFO: Initiated WebSocket Translation Layer.
+[15:11:48] CONNECTION: 192.168.1.2:52202 [SUCCESS]
+[15:11:48] API Version Check // [OK] 192.168.1.2:52202@API_3.0
+[15:11:48] [OK] -> 192.168.1.2:52202
+[15:11:48] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52202.
+[15:11:48] MISSING_ARGUMENTS: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52202
+[15:11:48] CLOSING: 192.168.1.2:52202.
+[15:11:48] CLOSING: 192.168.1.2:52202.
+[15:13:24] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:13:24] SYSTEM: Initializing server...
+[15:13:24] SYSTEM: Refreshing JSON...
+[15:13:25] SYSTEM: Loading JSON...
+[15:13:25] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:13:25] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:13:25] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:13:25] SYSTEM: Theme Data: []
+[15:13:25] SYSTEM: User Data: ['siriusbyt']
+[15:13:25] SYSTEM: Banned IPs Data: ['']
+[15:13:25] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:13:25] SYSTEM: Server initialized.
+[15:13:25] SYSTEM: Initiated Socket Server.
+[15:13:25] INFO: Initiated WebSocket Translation Layer.
+[15:13:25] CONNECTION: 192.168.1.2:52220 [SUCCESS]
+[15:13:25] API Version Check // [OK] 192.168.1.2:52220@API_3.0
+[15:13:25] [OK] -> 192.168.1.2:52220
+[15:13:25] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52220.
+[15:13:25] INVALID_REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52220
+[15:13:25] CLOSING: 192.168.1.2:52220.
+[15:13:25] CLOSING: 192.168.1.2:52220.
+[15:13:55] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:13:55] SYSTEM: Initializing server...
+[15:13:55] SYSTEM: Refreshing JSON...
+[15:13:55] SYSTEM: Loading JSON...
+[15:13:55] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:13:55] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:13:55] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:13:55] SYSTEM: Theme Data: []
+[15:13:55] SYSTEM: User Data: ['siriusbyt']
+[15:13:55] SYSTEM: Banned IPs Data: ['']
+[15:13:55] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:13:55] SYSTEM: Server initialized.
+[15:13:55] SYSTEM: Initiated Socket Server.
+[15:13:55] INFO: Initiated WebSocket Translation Layer.
+[15:13:57] CONNECTION: 192.168.1.2:52243 [SUCCESS]
+[15:13:57] API Version Check // [OK] 192.168.1.2:52243@API_3.0
+[15:13:57] [OK] -> 192.168.1.2:52243
+[15:13:57] REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52243.
+[15:13:57] INVALID_REQUEST: ['ADD_STAT', 'VIEW', 'extended_chat_effects'] from 192.168.1.2:52243
+[15:13:57] CLOSING: 192.168.1.2:52243.
+[15:14:04] CONNECTION: 192.168.1.2:52247 [SUCCESS]
+[15:14:04] API Version Check // [OK] 192.168.1.2:52247@API_3.0
+[15:14:04] [OK] -> 192.168.1.2:52247
+[15:14:04] REQUEST: ['ADD_STAT', 'VIEWS', 'extended_chat_effects'] from 192.168.1.2:52247.
+[15:14:04] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'extended_chat_effects'] from 192.168.1.2:52247
+[15:14:04] CLOSING: 192.168.1.2:52247.
+[15:14:12] CONNECTION: 192.168.1.2:52250 [SUCCESS]
+[15:14:12] API Version Check // [OK] 192.168.1.2:52250@API_3.0
+[15:14:12] [OK] -> 192.168.1.2:52250
+[15:14:12] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52250.
+[15:14:12] [OK] -> 192.168.1.2:52250
+[15:14:12] CLOSING: 192.168.1.2:52250.
+[15:14:41] CONNECTION: 192.168.1.2:52256 [SUCCESS]
+[15:14:41] API Version Check // [OK] 192.168.1.2:52256@API_3.0
+[15:14:41] [OK] -> 192.168.1.2:52256
+[15:14:41] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52256.
+[15:14:41] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52256
+[15:14:41] CLOSING: 192.168.1.2:52256.
+[15:14:52] CONNECTION: 192.168.1.2:52259 [SUCCESS]
+[15:14:52] API Version Check // [OK] 192.168.1.2:52259@API_3.0
+[15:14:52] [OK] -> 192.168.1.2:52259
+[15:14:52] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52259.
+[15:14:52] INVALID_REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52259
+[15:14:52] CLOSING: 192.168.1.2:52259.
+[15:14:58] CONNECTION: 192.168.1.2:52262 [SUCCESS]
+[15:14:58] API Version Check // [OK] 192.168.1.2:52262@API_3.0
+[15:14:58] [OK] -> 192.168.1.2:52262
+[15:14:58] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52262.
+[15:14:58] INVALID_REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52262
+[15:14:58] CLOSING: 192.168.1.2:52262.
+[15:15:40] CONNECTION: 192.168.1.2:52285 [SUCCESS]
+[15:15:40] API Version Check // [OK] 192.168.1.2:52285@API_3.0
+[15:15:40] [OK] -> 192.168.1.2:52285
+[15:15:40] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52285.
+[15:15:40] INVALID_REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52285
+[15:15:40] CLOSING: 192.168.1.2:52285.
+[15:17:09] CONNECTION: 192.168.1.2:52292 [SUCCESS]
+[15:17:09] API Version Check // [OK] 192.168.1.2:52292@API_3.0
+[15:17:09] [OK] -> 192.168.1.2:52292
+[15:17:09] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52292.
+[15:17:09] INVALID_REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52292
+[15:17:09] CLOSING: 192.168.1.2:52292.
+[15:17:13] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:17:13] SYSTEM: Initializing server...
+[15:17:13] SYSTEM: Refreshing JSON...
+[15:17:13] SYSTEM: Loading JSON...
+[15:17:13] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:17:13] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:17:13] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:17:13] SYSTEM: Theme Data: []
+[15:17:13] SYSTEM: User Data: ['siriusbyt']
+[15:17:13] SYSTEM: Banned IPs Data: ['']
+[15:17:13] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:17:13] SYSTEM: Server initialized.
+[15:17:13] SYSTEM: Initiated Socket Server.
+[15:17:13] INFO: Initiated WebSocket Translation Layer.
+[15:17:15] CONNECTION: 192.168.1.2:52303 [SUCCESS]
+[15:17:15] API Version Check // [OK] 192.168.1.2:52303@API_3.0
+[15:17:15] [OK] -> 192.168.1.2:52303
+[15:17:15] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52303.
+[15:17:15] [OK] -> 192.168.1.2:52303
+[15:17:15] CLOSING: 192.168.1.2:52303.
+[15:17:34] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:17:34] SYSTEM: Initializing server...
+[15:17:34] SYSTEM: Refreshing JSON...
+[15:17:35] SYSTEM: Loading JSON...
+[15:17:35] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:17:35] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:17:35] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:17:35] SYSTEM: Theme Data: []
+[15:17:35] SYSTEM: User Data: ['siriusbyt']
+[15:17:35] SYSTEM: Banned IPs Data: ['']
+[15:17:35] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:17:35] SYSTEM: Server initialized.
+[15:17:35] SYSTEM: Initiated Socket Server.
+[15:17:35] INFO: Initiated WebSocket Translation Layer.
+[15:17:35] CONNECTION: 192.168.1.2:52317 [SUCCESS]
+[15:17:35] API Version Check // [OK] 192.168.1.2:52317@API_3.0
+[15:17:35] [OK] -> 192.168.1.2:52317
+[15:17:35] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52317.
+[15:17:35] ALREADY_DONE: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52317
+[15:17:35] CLOSING: 192.168.1.2:52317.
+[15:17:36] CONNECTION: 192.168.1.2:52320 [SUCCESS]
+[15:17:36] API Version Check // [OK] 192.168.1.2:52320@API_3.0
+[15:17:36] [OK] -> 192.168.1.2:52320
+[15:17:36] REQUEST: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52320.
+[15:17:36] ALREADY_DONE: ['ADD_STAT', 'INSTALLS', 'infinite_chat_effects'] from 192.168.1.2:52320
+[15:17:36] CLOSING: 192.168.1.2:52320.
+[15:17:43] CONNECTION: 192.168.1.2:52323 [SUCCESS]
+[15:17:43] API Version Check // [OK] 192.168.1.2:52323@API_3.0
+[15:17:43] [OK] -> 192.168.1.2:52323
+[15:17:43] REQUEST: ['ADD_STAT', 'INSTALLS', 'extended_chat_effects'] from 192.168.1.2:52323.
+[15:17:43] [OK] -> 192.168.1.2:52323
+[15:17:43] CLOSING: 192.168.1.2:52323.
+[15:21:14] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: True - Packet Size: 1024b
+
+[15:21:14] SYSTEM: Initializing server...
+[15:21:14] SYSTEM: Refreshing JSON...
+[15:21:15] SYSTEM: Loading JSON...
+[15:21:15] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:21:15] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:21:15] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:21:15] SYSTEM: Theme Data: []
+[15:21:15] SYSTEM: User Data: ['siriusbyt']
+[15:21:15] SYSTEM: Banned IPs Data: ['']
+[15:21:15] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:21:15] SYSTEM: Server initialized.
+[15:21:15] SYSTEM: Initiated Socket Server.
+[15:21:15] INFO: Initiated WebSocket Translation Layer.
+[15:21:27] CONNECTION: 192.168.1.2:52356 [SUCCESS]
+[15:21:27] API Version Check // [OK] 192.168.1.2:52356@API_3.0
+[15:21:27] [OK] -> 192.168.1.2:52356
+[15:21:27] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52356.
+[15:21:27] [SUCCESS] Added IP Address 192.168.1.2 for infinite_chat_effects in views.json.
+[15:21:27] [OK] -> 192.168.1.2:52356
+[15:21:27] CLOSING: 192.168.1.2:52356.
+[15:26:11] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:26:11] SYSTEM: Initializing server...
+[15:26:11] SYSTEM: Refreshing JSON...
+[15:26:12] SYSTEM: Loading JSON...
+[15:26:12] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:26:12] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:26:12] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:26:12] SYSTEM: Theme Data: []
+[15:26:12] SYSTEM: User Data: ['siriusbyt']
+[15:26:12] SYSTEM: Banned IPs Data: ['']
+[15:26:12] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:26:12] SYSTEM: Server initialized.
+[15:26:12] SYSTEM: Initiated Socket Server.
+[15:26:12] INFO: Initiated WebSocket Translation Layer.
+[15:26:13] CONNECTION: 192.168.1.2:52399 [SUCCESS]
+[15:26:13] API Version Check // [OK] 192.168.1.2:52399@API_3.0
+[15:26:13] [OK] -> 192.168.1.2:52399
+[15:26:13] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52399.
+[15:26:13] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:26:13] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52399
+[15:26:13] CLOSING: 192.168.1.2:52399.
+[15:26:13] CONNECTION: 192.168.1.2:52402 [SUCCESS]
+[15:26:13] API Version Check // [OK] 192.168.1.2:52402@API_3.0
+[15:26:13] [OK] -> 192.168.1.2:52402
+[15:26:13] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52402.
+[15:26:13] DROPPED: 192.168.1.2:52402. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:26:53] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:26:53] SYSTEM: Initializing server...
+[15:26:53] SYSTEM: Refreshing JSON...
+[15:26:53] SYSTEM: Loading JSON...
+[15:26:53] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:26:53] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:26:53] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:26:53] SYSTEM: Theme Data: []
+[15:26:53] SYSTEM: User Data: ['siriusbyt']
+[15:26:53] SYSTEM: Banned IPs Data: ['']
+[15:26:53] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:26:53] SYSTEM: Server initialized.
+[15:26:53] SYSTEM: Initiated Socket Server.
+[15:26:53] INFO: Initiated WebSocket Translation Layer.
+[15:26:56] CONNECTION: 192.168.1.2:52428 [SUCCESS]
+[15:26:56] API Version Check // [OK] 192.168.1.2:52428@API_3.0
+[15:26:56] [OK] -> 192.168.1.2:52428
+[15:26:56] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52428.
+[15:26:56] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:26:56] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52428
+[15:26:56] CLOSING: 192.168.1.2:52428.
+[15:26:56] CONNECTION: 192.168.1.2:52431 [SUCCESS]
+[15:26:56] API Version Check // [OK] 192.168.1.2:52431@API_3.0
+[15:26:56] [OK] -> 192.168.1.2:52431
+[15:26:56] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52431.
+[15:26:56] DROPPED: 192.168.1.2:52431. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:27:56] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:27:56] SYSTEM: Initializing server...
+[15:27:56] SYSTEM: Refreshing JSON...
+[15:27:56] SYSTEM: Loading JSON...
+[15:27:56] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:27:56] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:27:56] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:27:56] SYSTEM: Theme Data: []
+[15:27:56] SYSTEM: User Data: ['siriusbyt']
+[15:27:56] SYSTEM: Banned IPs Data: ['']
+[15:27:56] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:27:56] SYSTEM: Server initialized.
+[15:27:56] SYSTEM: Initiated Socket Server.
+[15:27:56] INFO: Initiated WebSocket Translation Layer.
+[15:27:57] CONNECTION: 192.168.1.2:52445 [SUCCESS]
+[15:27:57] API Version Check // [OK] 192.168.1.2:52445@API_3.0
+[15:27:57] [OK] -> 192.168.1.2:52445
+[15:27:57] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52445.
+[15:27:57] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:27:57] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52445
+[15:27:57] CLOSING: 192.168.1.2:52445.
+[15:27:57] CONNECTION: 192.168.1.2:52448 [SUCCESS]
+[15:27:57] API Version Check // [OK] 192.168.1.2:52448@API_3.0
+[15:27:57] [OK] -> 192.168.1.2:52448
+[15:27:57] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52448.
+[15:27:57] DROPPED: 192.168.1.2:52448. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:28:25] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:28:25] SYSTEM: Initializing server...
+[15:28:25] SYSTEM: Refreshing JSON...
+[15:28:26] SYSTEM: Loading JSON...
+[15:28:26] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:28:26] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:28:26] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:28:26] SYSTEM: Theme Data: []
+[15:28:26] SYSTEM: User Data: ['siriusbyt']
+[15:28:26] SYSTEM: Banned IPs Data: ['']
+[15:28:26] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:28:26] SYSTEM: Server initialized.
+[15:28:26] SYSTEM: Initiated Socket Server.
+[15:28:26] INFO: Initiated WebSocket Translation Layer.
+[15:28:27] CONNECTION: 192.168.1.2:52461 [SUCCESS]
+[15:28:27] API Version Check // [OK] 192.168.1.2:52461@API_3.0
+[15:28:27] [OK] -> 192.168.1.2:52461
+[15:28:27] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52461.
+[15:28:27] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:28:27] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52461
+[15:28:27] CLOSING: 192.168.1.2:52461.
+[15:28:27] CONNECTION: 192.168.1.2:52464 [SUCCESS]
+[15:28:27] API Version Check // [OK] 192.168.1.2:52464@API_3.0
+[15:28:27] [OK] -> 192.168.1.2:52464
+[15:28:27] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52464.
+[15:28:27] DROPPED: 192.168.1.2:52464. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:29:15] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:29:15] SYSTEM: Initializing server...
+[15:29:15] SYSTEM: Refreshing JSON...
+[15:29:15] SYSTEM: Loading JSON...
+[15:29:15] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:29:15] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:29:15] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:29:15] SYSTEM: Theme Data: []
+[15:29:15] SYSTEM: User Data: ['siriusbyt']
+[15:29:15] SYSTEM: Banned IPs Data: ['']
+[15:29:15] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:29:15] SYSTEM: Server initialized.
+[15:29:15] SYSTEM: Initiated Socket Server.
+[15:29:15] INFO: Initiated WebSocket Translation Layer.
+[15:29:16] CONNECTION: 192.168.1.2:52487 [SUCCESS]
+[15:29:16] API Version Check // [OK] 192.168.1.2:52487@API_3.0
+[15:29:16] [OK] -> 192.168.1.2:52487
+[15:29:16] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52487.
+[15:29:16] DROPPED: 192.168.1.2:52487. 
+[TRACEBACK]
+name 'ReqFile' is not defined
+
+[15:29:16] CONNECTION: 192.168.1.2:52490 [SUCCESS]
+[15:29:16] API Version Check // [OK] 192.168.1.2:52490@API_3.0
+[15:29:16] [OK] -> 192.168.1.2:52490
+[15:29:16] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52490.
+[15:29:16] DROPPED: 192.168.1.2:52490. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:29:50] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:29:50] SYSTEM: Initializing server...
+[15:29:50] SYSTEM: Refreshing JSON...
+[15:29:50] SYSTEM: Loading JSON...
+[15:29:50] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:29:50] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:29:50] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:29:50] SYSTEM: Theme Data: []
+[15:29:50] SYSTEM: User Data: ['siriusbyt']
+[15:29:50] SYSTEM: Banned IPs Data: ['']
+[15:29:50] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:29:50] SYSTEM: Server initialized.
+[15:29:50] SYSTEM: Initiated Socket Server.
+[15:29:50] INFO: Initiated WebSocket Translation Layer.
+[15:29:51] CONNECTION: 192.168.1.2:52503 [SUCCESS]
+[15:29:51] API Version Check // [OK] 192.168.1.2:52503@API_3.0
+[15:29:51] [OK] -> 192.168.1.2:52503
+[15:29:51] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52503.
+[15:29:51] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:29:51] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52503
+[15:29:51] CLOSING: 192.168.1.2:52503.
+[15:29:51] CONNECTION: 192.168.1.2:52506 [SUCCESS]
+[15:29:51] API Version Check // [OK] 192.168.1.2:52506@API_3.0
+[15:29:51] [OK] -> 192.168.1.2:52506
+[15:29:51] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52506.
+[15:29:51] DROPPED: 192.168.1.2:52506. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:30:18] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:30:18] SYSTEM: Initializing server...
+[15:30:18] SYSTEM: Refreshing JSON...
+[15:30:19] SYSTEM: Loading JSON...
+[15:30:19] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:30:19] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:30:19] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:30:19] SYSTEM: Theme Data: []
+[15:30:19] SYSTEM: User Data: ['siriusbyt']
+[15:30:19] SYSTEM: Banned IPs Data: ['']
+[15:30:19] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:30:19] SYSTEM: Server initialized.
+[15:30:19] SYSTEM: Initiated Socket Server.
+[15:30:19] INFO: Initiated WebSocket Translation Layer.
+[15:30:20] CONNECTION: 192.168.1.2:52518 [SUCCESS]
+[15:30:20] API Version Check // [OK] 192.168.1.2:52518@API_3.0
+[15:30:20] [OK] -> 192.168.1.2:52518
+[15:30:20] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52518.
+[15:30:20] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:30:20] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52518
+[15:30:20] CLOSING: 192.168.1.2:52518.
+[15:30:20] CONNECTION: 192.168.1.2:52520 [SUCCESS]
+[15:30:20] API Version Check // [OK] 192.168.1.2:52520@API_3.0
+[15:30:20] [OK] -> 192.168.1.2:52520
+[15:30:20] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52520.
+[15:30:20] DROPPED: 192.168.1.2:52520. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:30:33] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:30:33] SYSTEM: Initializing server...
+[15:30:33] SYSTEM: Refreshing JSON...
+[15:30:34] SYSTEM: Loading JSON...
+[15:30:34] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:30:34] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:30:34] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:30:34] SYSTEM: Theme Data: []
+[15:30:34] SYSTEM: User Data: ['siriusbyt']
+[15:30:34] SYSTEM: Banned IPs Data: ['']
+[15:30:34] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:30:34] SYSTEM: Server initialized.
+[15:30:34] SYSTEM: Initiated Socket Server.
+[15:30:34] INFO: Initiated WebSocket Translation Layer.
+[15:30:35] CONNECTION: 192.168.1.2:52534 [SUCCESS]
+[15:30:35] API Version Check // [OK] 192.168.1.2:52534@API_3.0
+[15:30:35] [OK] -> 192.168.1.2:52534
+[15:30:35] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52534.
+[15:30:35] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:30:35] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52534
+[15:30:35] CLOSING: 192.168.1.2:52534.
+[15:30:35] CONNECTION: 192.168.1.2:52537 [SUCCESS]
+[15:30:35] API Version Check // [OK] 192.168.1.2:52537@API_3.0
+[15:30:35] [OK] -> 192.168.1.2:52537
+[15:30:35] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52537.
+[15:30:35] DROPPED: 192.168.1.2:52537. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:31:07] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:31:07] SYSTEM: Initializing server...
+[15:31:07] SYSTEM: Refreshing JSON...
+[15:31:08] SYSTEM: Loading JSON...
+[15:31:08] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:31:08] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:31:08] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:31:08] SYSTEM: Theme Data: []
+[15:31:08] SYSTEM: User Data: ['siriusbyt']
+[15:31:08] SYSTEM: Banned IPs Data: ['']
+[15:31:08] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:31:08] SYSTEM: Server initialized.
+[15:31:08] SYSTEM: Initiated Socket Server.
+[15:31:08] INFO: Initiated WebSocket Translation Layer.
+[15:31:08] CONNECTION: 192.168.1.2:52549 [SUCCESS]
+[15:31:08] API Version Check // [OK] 192.168.1.2:52549@API_3.0
+[15:31:08] [OK] -> 192.168.1.2:52549
+[15:31:08] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52549.
+[15:31:08] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:31:08] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52549
+[15:31:08] CLOSING: 192.168.1.2:52549.
+[15:31:08] CONNECTION: 192.168.1.2:52552 [SUCCESS]
+[15:31:08] API Version Check // [OK] 192.168.1.2:52552@API_3.0
+[15:31:08] [OK] -> 192.168.1.2:52552
+[15:31:08] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52552.
+[15:31:08] DROPPED: 192.168.1.2:52552. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:31:53] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:31:53] SYSTEM: Initializing server...
+[15:31:53] SYSTEM: Refreshing JSON...
+[15:31:54] SYSTEM: Loading JSON...
+[15:31:54] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:31:54] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:31:54] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:31:54] SYSTEM: Theme Data: []
+[15:31:54] SYSTEM: User Data: ['siriusbyt']
+[15:31:54] SYSTEM: Banned IPs Data: ['']
+[15:31:54] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:31:54] SYSTEM: Server initialized.
+[15:31:54] SYSTEM: Initiated Socket Server.
+[15:31:54] INFO: Initiated WebSocket Translation Layer.
+[15:31:55] CONNECTION: 192.168.1.2:52567 [SUCCESS]
+[15:31:55] API Version Check // [OK] 192.168.1.2:52567@API_3.0
+[15:31:55] [OK] -> 192.168.1.2:52567
+[15:31:55] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52567.
+[15:31:55] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:31:55] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52567
+[15:31:55] CLOSING: 192.168.1.2:52567.
+[15:31:55] CONNECTION: 192.168.1.2:52570 [SUCCESS]
+[15:31:55] API Version Check // [OK] 192.168.1.2:52570@API_3.0
+[15:31:55] [OK] -> 192.168.1.2:52570
+[15:31:55] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52570.
+[15:31:55] DROPPED: 192.168.1.2:52570. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:32:03] CONNECTION: 192.168.1.2:52573 [SUCCESS]
+[15:32:03] API Version Check // [OK] 192.168.1.2:52573@API_3.0
+[15:32:03] [OK] -> 192.168.1.2:52573
+[15:32:03] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52573.
+[15:32:03] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:32:03] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52573
+[15:32:03] CLOSING: 192.168.1.2:52573.
+[15:32:03] CONNECTION: 192.168.1.2:52576 [SUCCESS]
+[15:32:03] API Version Check // [OK] 192.168.1.2:52576@API_3.0
+[15:32:03] [OK] -> 192.168.1.2:52576
+[15:32:03] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52576.
+[15:32:03] DROPPED: 192.168.1.2:52576. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:32:05] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:32:05] SYSTEM: Initializing server...
+[15:32:05] SYSTEM: Refreshing JSON...
+[15:32:06] SYSTEM: Loading JSON...
+[15:32:06] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:32:06] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:32:06] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:32:06] SYSTEM: Theme Data: []
+[15:32:06] SYSTEM: User Data: ['siriusbyt']
+[15:32:06] SYSTEM: Banned IPs Data: ['']
+[15:32:06] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:32:06] SYSTEM: Server initialized.
+[15:32:06] SYSTEM: Initiated Socket Server.
+[15:32:06] INFO: Initiated WebSocket Translation Layer.
+[15:32:07] CONNECTION: 192.168.1.2:52587 [SUCCESS]
+[15:32:07] API Version Check // [OK] 192.168.1.2:52587@API_3.0
+[15:32:07] [OK] -> 192.168.1.2:52587
+[15:32:07] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52587.
+[15:32:07] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:32:07] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52587
+[15:32:07] CLOSING: 192.168.1.2:52587.
+[15:32:07] CONNECTION: 192.168.1.2:52590 [SUCCESS]
+[15:32:07] API Version Check // [OK] 192.168.1.2:52590@API_3.0
+[15:32:07] [OK] -> 192.168.1.2:52590
+[15:32:07] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52590.
+[15:32:07] DROPPED: 192.168.1.2:52590. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:32:59] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:32:59] SYSTEM: Initializing server...
+[15:32:59] SYSTEM: Refreshing JSON...
+[15:32:59] SYSTEM: Loading JSON...
+[15:32:59] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:32:59] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:32:59] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:32:59] SYSTEM: Theme Data: []
+[15:32:59] SYSTEM: User Data: ['siriusbyt']
+[15:32:59] SYSTEM: Banned IPs Data: ['']
+[15:32:59] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:32:59] SYSTEM: Server initialized.
+[15:32:59] SYSTEM: Initiated Socket Server.
+[15:32:59] INFO: Initiated WebSocket Translation Layer.
+[15:33:00] CONNECTION: 192.168.1.2:52606 [SUCCESS]
+[15:33:00] API Version Check // [OK] 192.168.1.2:52606@API_3.0
+[15:33:00] [OK] -> 192.168.1.2:52606
+[15:33:00] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52606.
+[15:33:00] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:33:00] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52606
+[15:33:00] CLOSING: 192.168.1.2:52606.
+[15:33:00] CONNECTION: 192.168.1.2:52609 [SUCCESS]
+[15:33:00] API Version Check // [OK] 192.168.1.2:52609@API_3.0
+[15:33:00] [OK] -> 192.168.1.2:52609
+[15:33:00] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52609.
+[15:33:00] DROPPED: 192.168.1.2:52609. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:33:15] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:33:15] SYSTEM: Initializing server...
+[15:33:15] SYSTEM: Refreshing JSON...
+[15:33:16] SYSTEM: Loading JSON...
+[15:33:16] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:33:16] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:33:16] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:33:16] SYSTEM: Theme Data: []
+[15:33:16] SYSTEM: User Data: ['siriusbyt']
+[15:33:16] SYSTEM: Banned IPs Data: ['']
+[15:33:16] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:33:16] SYSTEM: Server initialized.
+[15:33:16] SYSTEM: Initiated Socket Server.
+[15:33:16] INFO: Initiated WebSocket Translation Layer.
+[15:33:17] CONNECTION: 192.168.1.2:52620 [SUCCESS]
+[15:33:17] API Version Check // [OK] 192.168.1.2:52620@API_3.0
+[15:33:17] [OK] -> 192.168.1.2:52620
+[15:33:17] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52620.
+[15:33:17] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:33:17] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52620
+[15:33:17] CLOSING: 192.168.1.2:52620.
+[15:33:17] CONNECTION: 192.168.1.2:52622 [SUCCESS]
+[15:33:17] API Version Check // [OK] 192.168.1.2:52622@API_3.0
+[15:33:17] [OK] -> 192.168.1.2:52622
+[15:33:17] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52622.
+[15:33:17] DROPPED: 192.168.1.2:52622. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:33:32] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:33:32] SYSTEM: Initializing server...
+[15:33:32] SYSTEM: Refreshing JSON...
+[15:33:33] SYSTEM: Loading JSON...
+[15:33:33] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:33:33] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:33:33] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:33:33] SYSTEM: Theme Data: []
+[15:33:33] SYSTEM: User Data: ['siriusbyt']
+[15:33:33] SYSTEM: Banned IPs Data: ['']
+[15:33:33] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:33:33] SYSTEM: Server initialized.
+[15:33:33] SYSTEM: Initiated Socket Server.
+[15:33:33] INFO: Initiated WebSocket Translation Layer.
+[15:33:33] CONNECTION: 192.168.1.2:52631 [SUCCESS]
+[15:33:33] API Version Check // [OK] 192.168.1.2:52631@API_3.0
+[15:33:33] [OK] -> 192.168.1.2:52631
+[15:33:33] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52631.
+[15:33:33] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:33:33] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52631
+[15:33:33] CLOSING: 192.168.1.2:52631.
+[15:33:33] CONNECTION: 192.168.1.2:52638 [SUCCESS]
+[15:33:33] API Version Check // [OK] 192.168.1.2:52638@API_3.0
+[15:33:33] [OK] -> 192.168.1.2:52638
+[15:33:33] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52638.
+[15:33:33] DROPPED: 192.168.1.2:52638. 
+[TRACEBACK]
+'_io.TextIOWrapper' object is not subscriptable
+
+[15:33:56] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:33:56] SYSTEM: Initializing server...
+[15:33:56] SYSTEM: Refreshing JSON...
+[15:33:56] SYSTEM: Loading JSON...
+[15:33:56] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:33:56] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:33:56] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:33:56] SYSTEM: Theme Data: []
+[15:33:56] SYSTEM: User Data: ['siriusbyt']
+[15:33:56] SYSTEM: Banned IPs Data: ['']
+[15:33:56] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:33:56] SYSTEM: Server initialized.
+[15:33:56] SYSTEM: Initiated Socket Server.
+[15:33:56] INFO: Initiated WebSocket Translation Layer.
+[15:33:57] CONNECTION: 192.168.1.2:52666 [SUCCESS]
+[15:33:57] API Version Check // [OK] 192.168.1.2:52666@API_3.0
+[15:33:57] [OK] -> 192.168.1.2:52666
+[15:33:57] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52666.
+[15:33:57] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:33:57] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52666
+[15:33:57] CLOSING: 192.168.1.2:52666.
+[15:33:57] CONNECTION: 192.168.1.2:52669 [SUCCESS]
+[15:33:57] API Version Check // [OK] 192.168.1.2:52669@API_3.0
+[15:33:57] [OK] -> 192.168.1.2:52669
+[15:33:57] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52669.
+[15:33:57] [SUCCESS] "1" -> 192.168.1.2:52669.
+[15:33:57] CLOSING: 192.168.1.2:52669.
+[15:34:23] CONNECTION: 192.168.1.2:52672 [SUCCESS]
+[15:34:23] API Version Check // [OK] 192.168.1.2:52672@API_3.0
+[15:34:23] [OK] -> 192.168.1.2:52672
+[15:34:23] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52672.
+[15:34:23] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:34:23] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52672
+[15:34:23] CLOSING: 192.168.1.2:52672.
+[15:34:23] CONNECTION: 192.168.1.2:52673 [SUCCESS]
+[15:34:23] API Version Check // [OK] 192.168.1.2:52673@API_3.0
+[15:34:23] [OK] -> 192.168.1.2:52673
+[15:34:23] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52673.
+[15:34:23] [SUCCESS] "1" -> 192.168.1.2:52673.
+[15:34:23] CLOSING: 192.168.1.2:52673.
+[15:34:25] IridescentSky-Alpha:1407@API_3.0/r240201 // Debug: False - Packet Size: 1024b
+
+[15:34:25] SYSTEM: Initializing server...
+[15:34:25] SYSTEM: Refreshing JSON...
+[15:34:26] SYSTEM: Loading JSON...
+[15:34:26] SYSTEM: Server Data: {'modules': [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}], 'plugins': [{'siriusbyt': ['themehooker']}], 'themes': [], 'users': ['siriusbyt']}
+[15:34:26] SYSTEM: Module Data: [{'siriusbyt': ['extended_chat_effects', 'infinite_chat_effects']}]
+[15:34:26] SYSTEM: Plugin Data: [{'siriusbyt': ['themehooker']}]
+[15:34:26] SYSTEM: Theme Data: []
+[15:34:26] SYSTEM: User Data: ['siriusbyt']
+[15:34:26] SYSTEM: Banned IPs Data: ['']
+[15:34:26] SYSTEM: Splash Text Data: ['Something Wicked this way comes.', 'Oh look, a splash text!', 'Now built thanks to the Flashstore API!', 'Still without Javascript!\n...oh wait now there is.', 'The Discount Replugged Store™️\n...With more features', 'now with more yaes than mikos!', 'Made with <3 by SiriusBYT', '>Access Denied\n>:(', "Powered by Sirius' broken Python code!", 'Only took 6 months to have working search bars!', 'we killed the replugged forg', 'subscribe to siriusbyt', 'shoutouts to simpleflips', 'East_Arctica is a cool guy.\nLiterally.', 'Atacantul is an attacker.\nLiterally.']
+[15:34:26] SYSTEM: Server initialized.
+[15:34:26] SYSTEM: Initiated Socket Server.
+[15:34:26] INFO: Initiated WebSocket Translation Layer.
+[15:34:28] CONNECTION: 192.168.1.2:52687 [SUCCESS]
+[15:34:28] API Version Check // [OK] 192.168.1.2:52687@API_3.0
+[15:34:28] [OK] -> 192.168.1.2:52687
+[15:34:28] REQUEST: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52687.
+[15:34:28] [ERROR] IP Address 192.168.1.2 is already in infinite_chat_effects of views.json!
+[15:34:28] ALREADY_DONE: ['ADD_STAT', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52687
+[15:34:28] CLOSING: 192.168.1.2:52687.
+[15:34:28] CONNECTION: 192.168.1.2:52690 [SUCCESS]
+[15:34:28] API Version Check // [OK] 192.168.1.2:52690@API_3.0
+[15:34:28] [OK] -> 192.168.1.2:52690
+[15:34:28] REQUEST: ['GET', 'VIEWS', 'infinite_chat_effects'] from 192.168.1.2:52690.
+[15:34:28] [SUCCESS] "1" -> 192.168.1.2:52690.
+[15:34:28] CLOSING: 192.168.1.2:52690.
