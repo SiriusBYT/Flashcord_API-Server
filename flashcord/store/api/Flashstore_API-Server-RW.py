@@ -43,8 +43,8 @@ Packet_Size = 1024
 Debug_Mode = False
 Active_Connections = []
 
-SSL_Cert = "/System/SirioCloudcerts/Websirius.pem"
-SSL_Key = "/System/SirioCloudcerts/Websirius.key"
+SSL_Cert = "/System/SirioCloudcerts/FlashcordAPI.pem"
+SSL_Key = "/System/SirioCloudcerts/FlashcordAPI.key"
 SSL_Options = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
 SSL_Options.load_cert_chain(SSL_Cert, keyfile=SSL_Key)
 
