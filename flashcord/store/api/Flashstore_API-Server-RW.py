@@ -35,7 +35,7 @@ Legends say that removing this banner will cause the world to explode.
 # Server Information
 Server_Address = socket.gethostname()
 Port_RawSocket = 1407
-Port_WebSocket = 1408
+Port_WebSocket = 443
 Server_Version = "r240203"
 Server_API_Version = 3.0
 API_Socket = socket.socket()
