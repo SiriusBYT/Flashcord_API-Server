@@ -90,11 +90,14 @@
  "extended_chat_effects": [],
  "gq.sappy.SpotiCord": [],
  "infinite_chat_effects": [
-  "192.168.1.2"
+  "192.168.1.2",
+  "127.0.0.1"
  ],
  "io.github.puyodead1.MonstercatRP": [],
  "io.github.ruintd.LastFMRP": [],
- "lib.evelyn.Magnificent": [],
+ "lib.evelyn.Magnificent": [
+  "127.0.0.1"
+ ],
  "lib.evelyn.NoSpotifyPause": [],
  "lib.evelyn.SpotifyListenAlong": [],
  "lib.evelyn.SpotifyModal": [],
@@ -139,5 +142,12 @@
  "win.quickvids.Embeds": [],
  "xyz.griefmodz.ReplaceGoogleSearch": [],
  "xyz.griefmodz.StatisticCounter": [],
- "xyz.noplagi.friendinvites": []
+ "xyz.noplagi.friendinvites": [],
+ "": [],
+ "no_more_forg": [],
+ "alwaystyping": [],
+ "atsomeone": [],
+ "discordbypasses": [],
+ "fakedeafen": [],
+ "com.sirio-network.Flashcord-LPM": []
 }

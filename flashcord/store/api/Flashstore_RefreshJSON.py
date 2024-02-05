@@ -30,8 +30,8 @@ def Replugged_API(GetWhat):
     return Addon_IDs
 
 def ls(Folder):
-    Path = os.getcwd() + "\\" + Folder
-    Path = Path.replace("\\api","")
+    Path = os.getcwd() + "/" + Folder
+    Path = Path.replace("/api","")
     try: return next(os.walk(Path))[1]
     except: return "none"
 
@@ -59,7 +59,7 @@ def RefreshJSON():
         AddonArray = []
         for sub_cycle in range (len(UserFolders)):
             CurrentUser = UserFolders[sub_cycle]
-            AddonFolders = ls(f"{AddonType[cycle]}\\{CurrentUser}")
+            AddonFolders = ls(f"{AddonType[cycle]}/{CurrentUser}")
             Addons = RemoveSuffix(AddonFolders)
             if Addons != "none":
                 AddonArray.append({CurrentUser: Addons})

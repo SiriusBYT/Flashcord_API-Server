@@ -2,8 +2,8 @@
  "modules": [
   {
    "siriusbyt": [
-    "extended_chat_effects",
-    "infinite_chat_effects"
+    "infinite_chat_effects",
+    "extended_chat_effects"
    ]
   }
  ],
@@ -12,10 +12,25 @@
    "siriusbyt": [
     "themehooker"
    ]
+  },
+  {
+   "tharki-god": [
+    "discordbypasses",
+    "fakedeafen",
+    "alwaystyping",
+    "atsomeone"
+   ]
+  },
+  {
+   "eastarctica": [
+    "no_more_forg"
+   ]
   }
  ],
  "themes": [],
  "users": [
-  "siriusbyt"
+  "siriusbyt",
+  "tharki-god",
+  "eastarctica"
  ]
 }

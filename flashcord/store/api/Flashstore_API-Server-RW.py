@@ -1,6 +1,7 @@
 # Server Modules
 import socket # API's Native Language 
 import websockets # API's Translated Language
+import ssl # Required for WebSockets BS
 
 # Multi-threading modules
 import asyncio # Required for WebSockets
@@ -33,13 +34,19 @@ Legends say that removing this banner will cause the world to explode.
 
 # Server Information
 Server_Address = socket.gethostname()
-Server_Port = 1407
+Port_RawSocket = 1407
+Port_WebSocket = 1408
 Server_Version = "r240203"
 Server_API_Version = 3.0
 API_Socket = socket.socket()
 Packet_Size = 1024
 Debug_Mode = False
 Active_Connections = []
+
+SSL_Cert = "/System/SirioCloudcerts/Websirius.pem"
+SSL_Key = "/System/SirioCloudcerts/Websirius.key"
+SSL_Options = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+SSL_Options.load_cert_chain(SSL_Cert, keyfile=SSL_Key)
 
 # This is useless and is only used once but hey, you never know if you gonna need this useless piece of shit. I swear I'm not a function hoarder.
 def Flood(Lines):
@@ -95,11 +102,11 @@ def WebSocket_Server():
     async def Websocket_Handler(websocket):
         Address = websocket.remote_address
         Client_Address = str(Address[0])+":"+str(Address[1])
-        WriteLog(f'SUCCESS: New WebSocket connection from "{Client_Address}".',False)
+        WriteLog(f'CONNECTION: WebSocket "{Client_Address}".',False)
         await Application_Programming_Interface(websocket,Client_Address,True)
     async def Websocket_Listener():
         WriteLog(f'INFO: Initiated WebSocket Translation Layer.',False)
-        async with websockets.serve(Websocket_Handler, "localhost", 1407):
+        async with websockets.serve(Websocket_Handler, "0.0.0.0", Port_WebSocket, ssl=SSL_Options):
             await asyncio.Future()
     asyncio.run(Websocket_Listener())
 
@@ -112,7 +119,7 @@ def Socket_Server():
         except Exception as ErrorInfo: WriteLog(f'DROPPED: {Client_Address}. \n[TRACEBACK]\n{ErrorInfo}\n',True)
     def Socket_Asyncer(Connection_Socket):
         asyncio.run(Socket_Handler(Connection_Socket))
-    try: API_Socket.bind((Server_Address, Server_Port))
+    try: API_Socket.bind((Server_Address, Port_RawSocket))
     except socket.error as ErrorInfo: WriteLog(f"CRITICAL ERROR: Failed to bind the server's address! \n[TRACEBACK]\n{ErrorInfo}\n",False)
     WriteLog(f'SYSTEM: Initiated Socket Server.',False)
     API_Socket.listen()
@@ -260,7 +267,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
 def SplashBanner():
     Flood(16)
     print(ASCII_Banner)
-    WriteLog(f"{Server_Address}:{Server_Port}@API_{Server_API_Version}/{Server_Version} // Debug: {Debug_Mode} - Packet Size: {Packet_Size}b\n", False)
+    WriteLog(f"{Server_Address}:{Port_RawSocket}@API_{Server_API_Version}/{Server_Version} // Debug: {Debug_Mode} - Packet Size: {Packet_Size}b\n", False)
 
 """
 
