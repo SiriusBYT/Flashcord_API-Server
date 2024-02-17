@@ -38,6 +38,7 @@ Port_RawSocket = 1407
 Port_WebSocket = 443
 Server_Version = "r240217"
 Server_API_Version = 3.1
+Server_API_MinimumVersion = 3.0
 API_Socket = socket.socket()
 Packet_Size = 8192
 Debug_Mode = False
@@ -183,7 +184,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return False
         if Client_Version == Server_API_Version: WriteLog(f'API Version Check // [OK] {Client_Address}@API_{Client_Data}', False); await Code_OK(); return True
         elif Client_Version > Server_API_Version: WriteLog(f'API Version Check // [WARNING] {Client_Address}@API_{Client_Data} is newer.', False); await Code_Server_Outdated(); return True
-        elif Client_Version < (Server_API_Version - 1): WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
+        elif Client_Version < Server_API_MinimumVersion: WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
     async def SearchNSend(Selected_Data, Selected_User):
         cycle = 0
         for cycle in range (len(Selected_Data)):
@@ -273,7 +274,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
 def SplashBanner():
     Flood(16)
     print(ASCII_Banner)
-    WriteLog(f"{Server_Address}:{Port_RawSocket}@API_{Server_API_Version}/{Server_Version} // Debug: {Debug_Mode} - Packet Size: {Packet_Size}b\n", False)
+    WriteLog(f"{Server_Address}:{Port_RawSocket}@API_{Server_API_Version}-{Server_API_MinimumVersion}/{Server_Version} // Debug: {Debug_Mode} - Packet Size: {Packet_Size}b\n", False)
 
 """
 
@@ -319,9 +320,10 @@ def Bootstrap():
     WriteLog(f'SYSTEM: Server initialized.',False)
     try: # Post-Execution Routine
         while True: 
-            WriteLog(f'SYSTEM: Routine sleeping for now {Routine_Sleep} seconds.')
+            WriteLog(f'SYSTEM: Routine sleeping for now {Routine_Sleep} seconds.', False)
             time.sleep(Routine_Sleep)
             # There would be more code here, but right now I'm lazy.
+            WriteLog(f'SYSTEM: Executing Routine.', False)
             Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server,Data_Banned,Data_SplashText = GetServerData()
     except KeyboardInterrupt:
         try: sys.exit(130)
