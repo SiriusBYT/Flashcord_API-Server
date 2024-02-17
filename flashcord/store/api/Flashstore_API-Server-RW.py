@@ -36,12 +36,13 @@ Legends say that removing this banner will cause the world to explode.
 Server_Address = socket.gethostname()
 Port_RawSocket = 1407
 Port_WebSocket = 443
-Server_Version = "r240203"
-Server_API_Version = 3.0
+Server_Version = "r240217"
+Server_API_Version = 3.1
 API_Socket = socket.socket()
-Packet_Size = 1024
+Packet_Size = 8192
 Debug_Mode = False
 Active_Connections = []
+Routine_Sleep = 3600
 
 SSL_Cert = "/System/SirioCloudcerts/FlashcordAPI.pem"
 SSL_Key = "/System/SirioCloudcerts/FlashcordAPI.key"
@@ -130,7 +131,7 @@ def ArrayIndexExists(Array,Index):
     except: return False
 
 
-# WARNING: Async hell. Why? Because WebSockets are fucking ass and copy mplain & errors out if you don't await the .recv()
+# WARNING: Async hell. Why? Because WebSockets are fucking ass and copy plain & errors out if you don't await the .recv()
 async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
     # Key Handling Functions
     async def Close_Connection(): 
@@ -182,7 +183,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return False
         if Client_Version == Server_API_Version: WriteLog(f'API Version Check // [OK] {Client_Address}@API_{Client_Data}', False); await Code_OK(); return True
         elif Client_Version > Server_API_Version: WriteLog(f'API Version Check // [WARNING] {Client_Address}@API_{Client_Data} is newer.', False); await Code_Server_Outdated(); return True
-        elif Client_Version < Server_API_Version: WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
+        elif Client_Version < (Server_API_Version - 1): WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
     async def SearchNSend(Selected_Data, Selected_User):
         cycle = 0
         for cycle in range (len(Selected_Data)):
@@ -203,6 +204,11 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         with open(CheckWhichFile, "r", encoding="utf-8") as File: HotJSON = json.load(File)
         if Client_Request[2] in HotJSON: XCount = len(HotJSON[Client_Request[2]]); WriteLog(f'[SUCCESS] "{XCount}" -> {Client_Address}.', False); await Send(XCount)
         else: await Code_Not_Found()
+    async def HotJSON_AllData(CheckWhichFile):
+        TempDict = {}
+        with open(CheckWhichFile, "r", encoding="utf-8") as File: HotJSON = json.load(File)
+        for cycle in HotJSON: TempDict[cycle] = len(HotJSON[cycle])
+        WriteLog(f'[SUCCESS] "{CheckWhichFile} (IP-less)" -> {Client_Address}.', False); await Send(TempDict)
 
     # Server Logic (if statement hell // r240201 Update: I forgot switch statements existed lol, this is much better.)
     if await CheckVersion() == True:
@@ -234,10 +240,10 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
                                     else: WriteLog(f'[SUCCESS] "Data_Themes" -> {Client_Address}.', False); await Send(Data_Themes)
                                 case "VIEWS":
                                     if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Read_ViewInst("views.json")
-                                    else: await Code_Missing_Arguments()
+                                    else: await HotJSON_AllData("views.json")
                                 case "INSTALLS":
                                     if ArrayIndexExists(Client_Request, 2) == True: await HotJSON_Read_ViewInst("installs.json")
-                                    else: await Code_Missing_Arguments()
+                                    else: await HotJSON_AllData("installs.json")
                                 case "USERS": WriteLog(f'[SUCCESS] "Data_Users" -> {Client_Address}.', False); await Send(Data_Users)
                                 case "SERVER_VERSION": WriteLog(f'[SUCCESS] "Server_Version" -> {Client_Address}.', False); await Send(Server_Version)
                                 case "API_VERSION": WriteLog(f'[SUCCESS] "Server_API_Version" -> {Client_Address}.', False); await Send(Server_API_Version)
@@ -313,8 +319,10 @@ def Bootstrap():
     WriteLog(f'SYSTEM: Server initialized.',False)
     try: # Post-Execution Routine
         while True: 
-            time.sleep(1)
+            WriteLog(f'SYSTEM: Routine sleeping for now {Routine_Sleep} seconds.')
+            time.sleep(Routine_Sleep)
             # There would be more code here, but right now I'm lazy.
+            Data_Modules,Data_Plugins,Data_Themes,Data_Users,Data_Server,Data_Banned,Data_SplashText = GetServerData()
     except KeyboardInterrupt:
         try: sys.exit(130)
         except SystemExit: os._exit(130)
