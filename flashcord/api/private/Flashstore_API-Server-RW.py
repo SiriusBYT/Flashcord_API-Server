@@ -61,8 +61,8 @@ def GetTime():
     Date = f"{CTime.tm_mday:02d}-{CTime.tm_mon:02d}-{CTime.tm_year}"
     return Time,Date
 def WriteLog(Log,isDebugMessage):
-    Time,Data = GetTime()
-    LogFile = f"logs/{Data}.log"
+    Time,Date = GetTime()
+    LogFile = f"logs/{Date}.log"
     PrintLog = f"[{Time}] {Log}"
     FileLog = f'{PrintLog}\n'
     with open(LogFile, "a", encoding="utf=8") as LogFile:
@@ -183,7 +183,7 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         try: Client_Version = float(Client_Data)
         except: WriteLog(f'API Version Check // ERROR: {Client_Address} Invalid "{Client_Data}" API Version!', False); await Code_Client_Invalid_Version(); return False
         if Client_Version == Server_API_Version: WriteLog(f'API Version Check // [OK] {Client_Address}@API_{Client_Data}', False); await Code_OK(); return True
-        elif Client_Version > Server_API_MinimumVersion: WriteLog(f'API Version Check // [WARNING] {Client_Address}@API_{Client_Data} is newer.', False); await Code_Server_Outdated(); return True
+        elif Client_Version > Server_API_MinimumVersion: WriteLog(f'API Version Check // [WARNING] {Client_Address}@API_{Client_Data} is older but still accepted.', False); await Code_Server_Outdated(); return True
         elif Client_Version < Server_API_MinimumVersion: WriteLog(f'API Version Check // [ERROR] {Client_Address}@API_{Client_Data} is outdated!', False); await Code_Client_Outdated(); return False
     async def SearchNSend(Selected_Data, Selected_User):
         cycle = 0
@@ -210,7 +210,17 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
         with open(CheckWhichFile, "r", encoding="utf-8") as File: HotJSON = json.load(File)
         for cycle in HotJSON: TempDict[cycle] = len(HotJSON[cycle])
         WriteLog(f'[SUCCESS] "{CheckWhichFile} (IP-less)" -> {Client_Address}.', False); await Send(TempDict)
-
+    async def RepluggedProxy(GetWhat):
+        WriteLog(f"Parsing Replugged {GetWhat}...", True)
+        if GetWhat == "Plugins": Replugged_URL = "https://replugged.dev/api/store/list/plugin?page=1&items=100"
+        else: Replugged_URL = "https://replugged.dev/api/store/list/theme?page=1&items=100"
+        API = urllib.request.Request(
+            Replugged_URL, 
+            data=None, 
+            headers={'User-Agent': f'Flashcord-API_CORS-Proxy/{Server_API_Version}'}
+        )
+        API_Result = json.load(urllib.request.urlopen(API))
+        WriteLog(f'[SUCCESS] "[REPLUGGED API // {GetWhat}]" -> {Client_Address}', False); await Send(str(API_Result))
     # Server Logic (if statement hell // r240201 Update: I forgot switch statements existed lol, this is much better.)
     if await CheckVersion() == True:
         Client_Request = (await Receive_Data()).split("/")
@@ -251,6 +261,13 @@ async def Application_Programming_Interface(Client,Client_Address,isWebSocket):
                                 case "SPLASH_TEXT":
                                     Selected_Splash = Data_SplashText[random.randint(0,len(Data_SplashText) - 1)]
                                     WriteLog(f'[SUCCESS] "{Selected_Splash}" -> {Client_Address}.', False); await Send(Selected_Splash)
+                                case "REPLUGGED":
+                                    if ArrayIndexExists(Client_Request, 2) == True:
+                                        match Client_Request[2]:
+                                            case "PLUGINS": await RepluggedProxy("Plugins")
+                                            case "THEMES": await RepluggedProxy("Themes")
+                                            case _: await Code_Invalid_Request()
+                                    else: await Code_Missing_Arguments()
                                 case _: await Code_Invalid_Request()
                         else: WriteLog(f'[SUCCESS] "Data_Server" -> {Client_Address}', False); await Send(Data_Server)
                     case "ADD_STAT":
