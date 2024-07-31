@@ -2,6 +2,7 @@
 import socket # API's Native Language 
 import websockets # API's Translated Language
 import ssl # Required for WebSockets BS
+import urllib.request # Required for CORS Proxy
 
 # Multi-threading modules
 import asyncio # Required for WebSockets
